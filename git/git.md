@@ -1,4 +1,4 @@
-# [<span class="header">Introduction to Git</span>](#introduction-to-git)
+# <span class="header">Introduction to Git</span>
 
 So, Firstly What is Git ? Git is one of the most popular Version Control System.
 
@@ -12,13 +12,15 @@ There are basically two types of version control system :
 
 | Centralized | Distributed |
 | :---------: | :---------: |
-| In a Centralized System , all members connect to a central server to get the latest copy of the code and to share changes with others | In a Distributed System, every member has a copy of the project with its history on the machine so we can save snapshots of our project locally on our machine |
+| In a Centralized System , all members connect to a central server to get the latest copy of the code and to share changes with others | In a Distributed System, every member has a copy of the project with its history on the machine so we can save our project locally on our machine |
 | eg : Subversion , Microsoft team foundation server | eg : Git , Mercurial | 
-| Problem with Centralized System is the single point failure, if the server goes offline we cannot collaborate or save snapshots of our project so we have to wait until server is back online | In Distributed System such kind of failure cant occur since ever member has a copy of the project on his/her local machine and if the server is offline we can synchronize our work directly with each other |
+| Problem with Centralized System is the single point failure, if the server goes offline we cannot collaborate our project so we have to wait until server is back online | In Distributed System such kind of failure cant occur since ever member has a copy of the project on his/her local machine and if the server is offline we can synchronize our work directly with each other |
 
 </center>
 
 <center><i>Types of Version Control System</i></center>
+
+<br>
 
 # <span class="header">Why use Git ?</span>
 
@@ -28,6 +30,104 @@ There are basically two types of version control system :
 * <span class="sub-header">Scalable</span>
 * <span class="sub-header">Cheap Branching/Merging</span>
 
+# <span class="header">How to use Git </span>
+
+As Coders whose daily work revolves around working with a team on a single project, making sure everyone and everthing is on the same level is quite important for a smooth performance of the team. This makes learning Git very very essential.
+
+Before we get into the intricate details of how Git actually works, we must go through some essential commands that every git user must know. Most of these commands are what we will be using in our day-to-day activities.
+
+## Git Commands 
+
+<center>
+
+<table>
+<tr>
+<td>Stages</td>
+<td>Commands</td>
+<td>Function</td>
+</tr>
+<tr>
+<td>Setup</td>
+<td>git config</td>
+<td>Used to configure values on global or local project</td>
+</tr>
+<tr>
+<td rowspan="4">Staging & Commit</td>
+<td>git init</td>
+<td>Creates an empty local repository</td>
+</tr>
+<tr>
+<td>git add</td>
+<td>Adds files to the staging area </td>
+</tr>
+<tr>
+<td>git commit</td>
+<td>Records the changes made to the code and saves it in the local repository with a meaning</td>
+</tr>
+<tr>
+<td>git clone</td>
+<td>Used to make a copy of the specified repository</td>
+</tr>
+<tr>
+<td rowspan="4">Inspecting</td>
+<td>git log</td>
+<td> Used to display the commits history and status of head</td>
+</tr>
+<tr>
+<td>git diff</td>
+<td>Used to show changes between commits, working tree, etc</td>
+</tr>
+<tr>
+<td>git status</td>
+<td>Used to display the state of repository and staging area</td>
+</tr>
+<tr>
+<td>git show</td>
+<td>Used to show modifications in the commits</td>
+</tr>
+<tr>
+<td rowspan="3">Branching & Merging</td>
+<td>git branch</td>
+<td>It allows us to create, list, rename and delete branches</td>
+<tr>
+<td>git merge</td>
+<td>It is used to merege branches that have a common base commit</td>
+</tr>
+<tr>
+<td>git checkout</td>
+<td>Allows us to switch to a specific branch, create a new branch, checkout a remote branch, etc</td>
+</tr>
+<tr>
+<td rowspan="3">Undoing changes</td>
+<td>git revert</td>
+<td>Creates a new commit with the previous commit that you are reverting back to but unlike reset where it removes any other commits on its way back, instead it simply makes a copy of that and moves forward </td>
+</tr>
+<tr>
+<td>git reset</td>
+<td>Allows you to go back to a previous commit and removes any other commits on its way back</td>
+</tr>
+<tr>
+<td>git rm</td>
+<td>Used to remove files from the working tree and index</td>
+</tr>
+<tr>
+<td rowspan="3">Collaborating changes</td>
+<td>git fetch</td>
+<td>It downloads new data from remote repository but doenst integrate any of these new changes into our working files</td>
+</tr>
+<tr>
+<td>git pull</td>
+<td>It downloads new data from remote repository and also integrates all of these new changes into our working files</td>
+</tr>
+<tr>
+<td>git push</td>
+<td>It uploads and commits the content from the local repository to the remote repository</td>
+</tr>
+</table>
+
+</center>
+
+## Git Workflow
 
 
 <style>
@@ -46,3 +146,4 @@ There are basically two types of version control system :
 .sub-header{
   color: #00FFFF
 }
+</style>

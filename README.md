@@ -1,5 +1,6 @@
 # Table of Contents
 
-[Linux](linux/Linux.md)
+* [Linux](linux/Linux.md)
 
-[Git](git/git.md)
+* [Git](git/git.md)
+
