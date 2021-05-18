@@ -114,7 +114,9 @@ Now, Whenever clients make a request to the server, the server responds along wi
 4.  400-499 - Client error responses
 5.  500-599 - Server error responses
 
-# <span class="header">HTTP & HTTPS</span>
+# <span class="header">Database</span>
+
+# <span class="header">Licenses</span>
 
 <style>
 .highlight{

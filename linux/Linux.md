@@ -11,7 +11,7 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
 
 * <span class="sub-header">Simplified Update for all Software</span>
   
-  <span class="highlight">Maintaining the Linux OS is easy</span>, as the user can centrally update the OS and all software installed very easily. All the variants of Linux have their own central software repository, which is used to update the system and keep it safe. They offer regular updates and the system can be updated without rebooting it . The updating can be done periodically, with just a few clicks, or users can even automate the updating process. <span class="highlight">Updating a Windows system is not so easy compared to a Linux system</span> . Also, in Windows, all the third party software like Acrobat Reader and Firefox have to be updated individually.
+  <span class="highlight">Maintaining the Linux OS is easy</span>, as the user can centrally update the OS and all software installed very easily. All the variants of Linux have their own central software repository, which is used to update the system and keep it safe. They offer regular updates and the system can be updated without rebooting it. <span class="highlight">Updating a Windows system is not so easy compared to a Linux system</span> . Also, in Windows, all the third party software like Acrobat Reader and Firefox have to be updated individually.
 
   With Linux any app can be installed using a single command such as :
 
@@ -45,19 +45,13 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
 
   This feature is especially useful for commercial organizations such as Schools, Businesses and I.T Companies. Compare it to Windows OS whose Basic version can costs upto Rs 9,299.00 and Pro version can cost upto Rs 22,799.00 for a single PC. Imagine, a Company (assuming to have atleast 10 employees) must spend a minimum of Rs 9,29,900.00 to get started.
 
-  Extra :
-
-  Now, to get around this some individuals install a pirated version of Windows and can get away with it, if it's a personal desktop. But Commerical companies won't use such measures since not only is it unethical but if the audit logs are checked and a Company is found using pirated OS, it can be fined heavily and the deivces can be siezed. To avoid all this hassle, all the companies simply opt to use Linux as their OS.
-
 * <span class="sub-header">Access to Open Source</span>
 
   "Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
-
-  ## Extra
  
   This comes as shock to many people that 'Android' one of the most popular mobile operating system is based on Linux . But do not misunderstand what that line means. To put it simply, Android may be based on Linux, but it's not based on the type of Linux system that we use on PC i.e We cannot run Android apps on Linux and vice-versa. 
 
-  So, What does it mean when we say 'Android is based on Linux'? Here, when we use the word 'Linux' we mean the 'Linux kernel' (A kernel is the core part of an OS)
+  So, What does it mean when we say 'Android is based on Linux'? Here, when we use the word 'Linux' we mean the 'Linux kernel' <a href="#kernel">(What is Kernel ?)</a>
 
 * <span class="sub-header">Multiple Distribution</span>  
 
@@ -90,8 +84,13 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
 
   All this been said, recently it was discovered that hackers are now using advanced malware to target Linux servers, this malware is known as "RedXOR". RedXOR is basically a backdoor targetting system that has capabilites like exfiltraing data to tunneling network traffic to another destination. Malware's like this could be a concern for the future of Linux security.
 
+# <span class="header" id="kernel">What is kernel ?</span>
+
+A Kernel is a computer program that is the heart and core of an Operating system. Since the Operating system
 
 # <span class="header">Baisc Linux Commands</span>
+
+The Linux command line is a text interface to our computer. It is often referred to as shell, terminal, console, or other various names. It is in this terminal that we will run our commands. Now, let us look at some basic yet important commands in Linux :-
 
 | Commands | Fullforms                       | Their Function                                                                    |
 | :------- | :------------------------------ | :-------------------------------------------------------------------------------- |
@@ -224,6 +223,9 @@ which already existed</td>
 <td>This will force stop the program but any unsaved progress will be lost</td>
 </tr>
 </table>
+<br>
+
+# <span class="header">Linux File System</span>
 
 <style>
 .highlight{
