@@ -80,13 +80,17 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
 
   Ofcourse in the end, it is a fact that no operating system is completely secure and free from vulnerabilities, but yes, its much harder to infect an Linux system compared to Windows.
 
-  Extra :
-
-  All this been said, recently it was discovered that hackers are now using advanced malware to target Linux servers, this malware is known as "RedXOR". RedXOR is basically a backdoor targetting system that has capabilites like exfiltraing data to tunneling network traffic to another destination. Malware's like this could be a concern for the future of Linux security.
+  Although, recently it was discovered that hackers are now using advanced malware to target Linux servers, this malware is known as "RedXOR". RedXOR is basically a backdoor targetting system that has capabilites like exfiltraing data to tunneling network traffic to another destination. Malware's like this could be a concern for the future of Linux security.
 
 # <span class="header" id="kernel">What is kernel ?</span>
 
-A Kernel is a computer program that is the heart and core of an Operating system. Since the Operating system
+A Kernel is a computer program that is the heart and core of an Operating system. Since the Operating system has control over the system so, the kernel also has control over everything in the system. Kernel is the first program that is loaded after the bootloader, it remains into memory until operating sytem is shutdown.
+
+Functions of Kernel :-
+* Access Computer resource - It can access various resources like CPU, I/O devices, etc.
+* Resource Management - It shares the resources between different process in such a way that there is uniform access to the resource by every process.
+* Memory Management - Every process needs memory space. All the memory management like allocation and deallocaion for execution of process is done by kernel.
+* Device Management - Kernel also manages the peripheral devices connected in the system.
 
 # <span class="header">Baisc Linux Commands</span>
 
@@ -226,6 +230,24 @@ which already existed</td>
 <br>
 
 # <span class="header">Linux File System</span>
+
+Linux uses a hierarchical file system structure, like a tree with root(/) at the base of the file system and all other directories spreading from there. A Linux file system is a collection of files and directories and each directory has a specific purpose(i.e they generally hold same types of information for easily locating files).
+
+| Directory | Description |
+| --------- | ----------- |
+| /boot | System kernel is stored |
+| /bin | binary files are stored |
+| /sbin | System binary is stored and it is used by the Sys admin |
+| /home | User data is stored |
+| /var | Variable file  |
+| /usr | User system resource  |
+| /root | Home directory for the root user |
+| /(root filesystem) | Top level directory of the filesystem. Contains files required to boot the system. Also contains files like executables and libraries required to boot remaining filesystem |
+| /tmp | Temporary directory. Used by OS and other apps to store temporary files |
+| /etc | Contains System Configuration files |
+| /lib | System Libraries are stored  |
+| /mnt | Temporary Mount point for RFS (Used when admin is repairing or working on System File) |
+| /dev | Contains the device files for every hardware device attached to the system |
 
 <style>
 .highlight{

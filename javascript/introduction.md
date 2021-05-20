@@ -28,6 +28,8 @@ In today's world, web & mobile applications have dominated the tech industry. An
 * CSS - controls how the page looks - font, background colors, etc 
 * JavaScript - used to make the site dynamic - interactive forms, auto complete suggestions, etc.
 
+<img src="../assests/HTML-CSS-JS.jpg" width="500">
+
 Meanwhile, because JavaScript is such an integral part of web functionality, all major web broswers come with built-in engine that can render JavaScript. This means that we can type JS commands into an HTML and web broswer will be able to understand them. To put it simply, JS doesnt require downloading any additional programs or compilers.
 
 Additionally, this is not all the advantages that JS provide the developers. We can also use JS for -

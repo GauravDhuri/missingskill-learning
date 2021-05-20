@@ -5,4 +5,4 @@
 * [Git](git/git.md)
 
 * [Basic Building Block Of Web Application Development](webApplicationDevelopment/webApplicationDevelopment.md)
-* [JavaScript](javascript/javascript.md)
+* [JavaScript](javascript/introduction.md)
