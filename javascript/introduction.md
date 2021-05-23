@@ -1,6 +1,6 @@
 # <span class="header">Introduction to JavaScript</span>
 
-'Java' a word that every programming student has come across. Aonther similar word that we often hear is 'JavaScript'. Often people make the mistake of assuming them to be the same. And Yes, in some ways they are similar but are fundamentally are different.
+'Java' a word that every programming student has come across. Aonther similar word that we often hear is 'JavaScript'. Often people make the mistake of assuming them to be the same. And Yes, in some ways they are similar but are fundamentally different.
 
 <center>
 
@@ -8,7 +8,7 @@
 | :--: | :--------: |
 | Java is Strongly typed language | JS is weakly typed language |
 | Java application runs on JVM(Virtual machine) or browser | JS code can run on browser and on a server via Node.js |
-| Objest of Java are class based | JS objects are prototype based |
+| Object of Java are class based | JS objects are prototype based |
 | Has .java as extension | Has .js as extension |
 | Standalone language | Integrated with HTML content and contained within webpages |
 | Supports multi-threading | Doesn't support Multi-threading |
@@ -16,7 +16,7 @@
 </center>
 <br>
 
-> JavaScript is a scripting language used to create and control dynamic website content i.e anything that moves, refreshes or changes (without us requiring to manually reload the web page)
+> JavaScript is a scripting language that is single-threaded and  and synchronous. It is used to create and control dynamic website content i.e anything that moves, refreshes or changes (without us requiring to manually reload the web page)
 
 # <span class="header">Why to use JavaScript ?</span>
 
@@ -47,13 +47,13 @@ As we can see, JS is a very valuable scripting language that web developers must
 .imp{
   color: #FF8080
 }
-.trivia{
+.header3{
   color: #E6D100
 }
 .header{
   color: #EE82EE
 }
-.sub-header{
+.header2{
   color: #00FFFF
 }
 </style>
