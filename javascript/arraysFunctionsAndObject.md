@@ -198,6 +198,8 @@ makeSandwich(onion 🧅, bread 🍞, tomato 🍅, cheese 🧀){
 }
 ```
 
+Also, if a function is associated with an object it is often called as method.
+
 ### <span class="header3">Arrow Functions</span>
 
 Arrow Functions are also called as 'fat arrow function'. In JS, arrow function are just an alternate way to write a shorter syntax compared to normal function expression. 

@@ -342,6 +342,8 @@ for(type var: array){
 }
 ```
 
+### <span class="header3">For-Of</span>
+
 <style>
 .highlight{
   color: #75FF33
