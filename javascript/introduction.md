@@ -24,9 +24,10 @@ Now, what makes JS so popular and why should we learn about JS ?
 
 In today's world, web & mobile applications have dominated the tech industry. And when it comes to web applications, the three elements that form the backbone of web applications are :-
 
-* HTML - decides the structure of our page - headers, body , images, etc.
-* CSS - controls how the page looks - font, background colors, etc 
-* JavaScript - used to make the site dynamic - interactive forms, auto complete suggestions, etc.
+* HTML -<span class="highlight"> decides the structure of our page - headers, body , images, etc</span>
+* CSS - <span class="highlight">controls how the page looks - font, background colors, etc</span>
+* JavaScript - <span class="highlight">used to make the site dynamic - interactive forms, auto complete suggestions, etc</span> 
+
 
 <img src="../assests/HTML-CSS-JS.jpg" width="500">
 
@@ -39,6 +40,14 @@ Additionally, this is not all the advantages that JS provide the developers. We 
 * Web Servers
 
 As we can see, JS is a very valuable scripting language that web developers must learn.
+
+Since JavaScript is vast to learn, I have divided into multiple sections :-
+
+* Basic 
+* Advanced
+* Arrays, Objects & Functions
+* ES6 
+
 
 <style>
 .highlight{

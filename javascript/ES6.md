@@ -17,7 +17,7 @@ This could create alot of mess. So, it was a relief when ES6 released `let` and 
 
 ### <span class="header3">Let</span>
 
-`let` is a block scoped variable. It solved the issuses that were caused by `var`. let variables can be updated buy cannot be re-declared.
+`let` is a block scoped variable. It solved the issuses that were caused by `var`. <span class="highlight">`let` variables can be updated buy cannot be re-declared</span> .
 
 ```js
 // updating let variable
@@ -31,7 +31,7 @@ let greet = "hello"; // will throw error
 
 ### <span class="header3">Const</span>
 
-`const` is used for variables that should maintain constant values. Similar to `let`, `const` is block scoped too. However, unlike `let`, `const` variables cannot be re-declared or updated.
+`const` is used for variables that should maintain constant values. Similar to `let`, `const` is block scoped too. However, unlike `let`,<span class="highlight"> `const` variables cannot be re-declared or updated</span> .
 
 ```js
 const greet = "hi";
@@ -40,7 +40,7 @@ greet = "hello"; // will throw error
 
 ## <span class="header2">Destructuring</span>
 
-Destructuring in JS is a method that helps us upack values from arrays and properties from objects into variables. 
+Destructuring in JS is a <span class="highlight">method that helps us upack values from arrays and properties from objects into variables</span> . 
 
 Why is destructuring needed ? Many-a-times it can happen that arrays can be complexly nested which makes information access very tedious epecially when we might not need the entire informatioin but rather only a part of information. Here Destructuring can help us map elements that we are interested in while ignoring the other elements.
 
@@ -67,7 +67,7 @@ console.log(name); // Gaurav
 ```
 ### <span class="header3">Rest</span>
 
-In ES6 a new operator(...) was added that can be used in destructuring. If the operator appears on the left-hand side in destructuring then it is called as Rest parameter. Rest is used to map the remaining elements that were not intrested in by itself.
+In ES6 a new operator `(...)` was added that can be used in destructuring. <span class="highlight">If the operator appears on the left-hand side in destructuring then it is called as Rest parameter</span>. Rest is used to map the remaining elements that were not intrested in by itself.
 
 Eg :-
 ```js
@@ -81,7 +81,7 @@ console.log(others); //["Valorant","League of Legends","Rainbow Six Seige"]
 
 ### <span class="header3">Spread</span>
 
-When the operator(...) appears on the right-hand in destructuring then its called as Spread Synatax. It takes all the other elements which have no variable mapped to them and then maps it to rest variable.
+<span class="highlight">When the operator `(...)` appears on the right-hand in destructuring then its called as Spread Synatax</span> . It takes all the other elements which have no variable mapped to them and then maps it to rest variable.
 
 Eg :-
 ```js
@@ -99,9 +99,9 @@ ES6 came along with lots of built methods. These methods simplyfy and standardiz
 
 <table>
 <tr>
-<td>Methods</td>
-<td>Description</td>
-<td>Syntax</td>
+<th>Methods</th>
+<th>Description</th>
+<th>Syntax</th>
 </tr>
 <tr>
 <td>Object Property Assignmnet</td>
@@ -259,7 +259,7 @@ class Polygon {
 }
 ```
 
-Also, unlike funcitons and variables, class cannot be hoisted.
+Also,<span class="highlight"> unlike funcitons and variables, class cannot be hoisted</span> .
 
 ### <span class="header3">Understanding Why Setters & Getters are used</span>
 

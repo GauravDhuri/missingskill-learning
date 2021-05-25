@@ -9,7 +9,7 @@ It manages all of the hardware resources associated with our desktop or laptop. 
 
 Until a few years ago, Linux was used mainly for servers and was not considered sutiable for desktops. But it's user-interface and ease of use has been steadily improving over the past few years. And Now, there are many reasons why Linux should be preferred over other software such as Windows or Mac. Given below are few of the reasons why.
 
-* <span class="header3">Simplified Update for all Software</span>
+* <span class="list">Simplified Update for all Software</span>
   
   <span class="highlight">Maintaining the Linux OS is easy</span>, as the user can centrally update the OS and all software installed very easily. All the variants of Linux have their own central software repository, which is used to update the system and keep it safe. They offer regular updates and the system can be updated without rebooting it. <span class="highlight">Updating a Windows system is not so easy compared to a Linux system</span> . Also, in Windows, all the third party software like Acrobat Reader and Firefox have to be updated individually.
 
@@ -39,21 +39,21 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
   <b>$ sudo apt remove package</b>
   </pre>
 
-* <span class="header3">Free Software Licensing</span>
+* <span class="list">Free Software Licensing</span>
 
   <span class="highlight">Linux is completely free</span> and users do not need to pay for anything . All the basic software required by a user and even an advanced user are available. Even the equivalent of professional software for desktop pubblishing, photo editing, audio editing and video editing are available.
 
   This feature is especially useful for commercial organizations such as Schools, Businesses and I.T Companies. Compare it to Windows OS whose Basic version can costs upto Rs 9,299.00 and Pro version can cost upto Rs 22,799.00 for a single PC. Imagine, a Company (assuming to have atleast 10 employees) must spend a minimum of Rs 9,29,900.00 to get started.
 
-* <span class="header3">Access to Open Source</span>
+* <span class="list">Access to Open Source</span>
 
   "Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
  
-  This comes as shock to many people that 'Android' one of the most popular mobile operating system is based on Linux . But do not misunderstand what that line means. To put it simply, Android may be based on Linux, but it's not based on the type of Linux system that we use on PC i.e We cannot run Android apps on Linux and vice-versa. 
+  <span class="highlight">This comes as shock to many people that 'Android' one of the most popular mobile operating system is based on Linux</span> . But do not misunderstand what that line means. To put it simply, Android may be based on Linux, but it's not based on the type of Linux system that we use on PC i.e We cannot run Android apps on Linux and vice-versa. 
 
   So, What does it mean when we say 'Android is based on Linux'? Here, when we use the word 'Linux' we mean the 'Linux kernel' <a href="#kernel">(What is Kernel ?)</a>
 
-* <span class="sub-header">Multiple Distribution</span>  
+* <span class="list">Multiple Distribution</span>  
 
   Operating system like Microsoft combine each bit of codes internally and release it as a single package.
 
@@ -72,19 +72,19 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
   | OpenSUSE | It works same as Fedora but slightly older and more stable |
   | Arch Linux | It is not for beginners because every package has to be installed by oneself |
 
-* <span class="header3">Malware Protection</span>
+* <span class="list">Malware Protection</span>
   
   It is belived that Linux is more secure thean Windows becasue of the way it handles user permissions. As running an ".exe" file is much harder since Linux does not process executables without explicit permission (In simple terms we need to chmod +x a file before we can run it). This makes Linux much safer as most of the malware and virus come in the form of an ".exe".
 
   Another advantage that Linux has is that viruses can be  more easily removed. In Linux, system-related files are owned by "root" superuser. If infected, viruses can be removed as they can affect the user account and not the root account.
 
-  Ofcourse in the end, it is a fact that no operating system is completely secure and free from vulnerabilities, but yes, its much harder to infect an Linux system compared to Windows.
+  Ofcourse in the end, it is a fact that no operating system is completely secure and free from vulnerabilities, but yes,<span class="highlight"> its much harder to infect an Linux system compared to Windows</span> .
 
   Although, recently it was discovered that hackers are now using advanced malware to target Linux servers, this malware is known as "RedXOR". RedXOR is basically a backdoor targetting system that has capabilites like exfiltraing data to tunneling network traffic to another destination. Malware's like this could be a concern for the future of Linux security.
 
 # <span class="header" id="kernel">What is kernel ?</span>
 
-A Kernel is a computer program that is the heart and core of an Operating system. Since the Operating system has control over the system so, the kernel also has control over everything in the system. Kernel is the first program that is loaded after the bootloader, it remains into memory until operating sytem is shutdown.
+<span class="highlight">A Kernel is a computer program that is the heart and core of an Operating system</span> . Since the Operating system has control over the system so, the kernel also has control over everything in the system. Kernel is the first program that is loaded after the bootloader, it remains into memory until operating sytem is shutdown.
 
 Functions of Kernel :-
 * Access Computer resource - It can access various resources like CPU, I/O devices, etc.
@@ -248,12 +248,13 @@ Linux uses a hierarchical file system structure, like a tree with root(/) at the
 | /lib | System Libraries are stored  |
 | /mnt | Temporary Mount point for RFS (Used when admin is repairing or working on System File) |
 | /dev | Contains the device files for every hardware device attached to the system |
+<br>
 
 <img src="../assests/RFS.jpg" width="1000" class="center">
 
 <style>
 .highlight{
-  color: #FF8080
+  color: #75FF33
 }
 .header3{
   color: #E6D100
@@ -264,7 +265,7 @@ Linux uses a hierarchical file system structure, like a tree with root(/) at the
 .header2{
   color: #00FFFF
 }
-.imp{
-  color: #75FF33
+.list{
+  color: #FF8080
 }
 </style>

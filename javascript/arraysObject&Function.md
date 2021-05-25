@@ -2,7 +2,7 @@
 
 ## <span class="header2">Arrays</span>
 
-An array is a special variable that can store multiple values at a time. However, another thing to know is that in Javascript Arrays are considered as an object. The `typeof` operator will return 'object' as a result for arrays.
+<span class="highlight">An array is a special variable that can store multiple values at a time</span>. However, another thing to know is that in Javascript Arrays are considered as an object. The `typeof` operator will return 'object' as a result for arrays.
 
 Few distinct Features that array provide are :-
 * It provides us index which uses numbers to access its 'elements'
@@ -107,20 +107,20 @@ To understand that, think of Arrays as Books and think of Objects as Newspapers.
 
 <table>
 <tr>
-<td>Arrays</td>
-<td>Objects</td>
+<th>Arrays</th>
+<th>Objects</th>
 </tr>
 <tr>
 <td>Books consist of chapters. Each Chapter is associated with a number. If the reader wants to read a particular chapter he can use the number associated with it.</td>
 <td>Newspaper consist of Sections. Each Section has a particular Name and some news associated to it. The reader can just flip immediately to the section and read the appropriate context.</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td><img src="../assests/Books.jpg"></td>
+<td><img src="../assests/Newspaper.jpg"></td>
 </tr>
 <tr>
-<td>We use arrays when order is the most important factor for organizing the information.</td>
-<td>We use Objects when we want to organize information based on data labels.</td>
+<td class="highlight">We use arrays when order is the most important factor for organizing the information.</td>
+<td class="highlight">We use Objects when we want to organize information based on data labels.</td>
 </tr>
 <tr>
 <td>
@@ -179,7 +179,7 @@ Here, we can see that for the array we can not only have the Chapters arranged i
 
 ## <span class="header2">Functions</span>
 
-A function is a block of code designed to perform a particular task. The main purpose behind creating/using a function is that we can reuse the code as many times as we want, this helps use save time and also helps us make our progams compact.
+<span class="highlight">A function is a block of code designed to perform a particular task</span>. The main purpose behind creating/using a function is that we can reuse the code as many times as we want, this helps use save time and also helps us make our progams compact.
 
 Syntax of a function is :
 
@@ -198,7 +198,7 @@ makeSandwich(onion 🧅, bread 🍞, tomato 🍅, cheese 🧀){
 }
 ```
 
-Also, if a function is associated with an object it is often called as method.
+Also, if<span class="highlight"> a function is associated with an object it is often called as method</span>.
 
 ### <span class="header3">Arrow Functions</span>
 
@@ -269,7 +269,7 @@ let sum = (a,b) => a + b;
 </tr>
 </table>
 
-As we can see arrow function expression is just a more concise and easier way of using arrow function but that's not what makes arrow function really great. What really makes arrow function great is that they redefines `this` keyword inside of them as opposed to normal function.
+As we can see arrow function expression is just a more concise and easier way of using arrow function but that's not what makes arrow function really great. <span class="highlight">What really makes arrow function great is that they redefines `this` keyword inside of them as opposed to normal function</span> .
 
 Eg :-
 <table>
@@ -355,7 +355,7 @@ Below are some ways we can write IIFE :-
 myName(Dhuri);  // Inline Parameter
 // Output will be- My Name is Dhuri
 ```
-One of few reasons IIFE is used because it doesnt let Global variables get polluted and this helps us avoid variable conflicts, however with the addition of block scopes like `const` and `let` IIFE isnt used as much anymore. 
+<span class="highlight">One of few reasons IIFE is used because it doesnt let Global variables get polluted and this helps us avoid variable conflicts</span>, however with the addition of block scopes like `const` and `let` IIFE isnt used as much anymore. 
 
 ### <span class="header3">Constructor Function</span>
 

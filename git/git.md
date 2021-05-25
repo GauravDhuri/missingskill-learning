@@ -1,6 +1,6 @@
 # <span class="header">Introduction to Git</span>
 
-So, Firstly What is Git ? Git is one of the most popular Version Control System.
+So, Firstly What is Git ? <span class="highlight">Git is one of the most popular Version Control System.</span>
 
 >A Version Control System records the changes made to our code over-time and stores it in a speical database called repository.
 
@@ -22,29 +22,29 @@ There are basically two types of version control system :
 
 <br>
 
-# <span class="header">Why use Git ?</span>
+## <span class="header2">Why use Git ?</span>
 
-* <span class="sub-header">Free</span>
-* <span class="sub-header">Open Source</span>
-* <span class="sub-header">Super Fast</span>
-* <span class="sub-header">Scalable</span>
-* <span class="sub-header">Cheap Branching/Merging</span>
+* <span class="list">Free</span>
+* <span class="list">Open Source</span>
+* <span class="list">Super Fast</span>
+* <span class="list">Scalable</span>
+* <span class="list">Cheap Branching/Merging</span>
 
-# <span class="header">How to use Git </span>
+## <span class="header2">How to use Git </span>
 
 As Coders whose daily work revolves around working with a team on a single project, making sure everyone and everthing is on the same level is quite important for a smooth performance of the team. This makes learning Git very very essential.
 
 Before we get into the intricate details of how Git actually works, we must go through some essential commands that every git user must know. Most of these commands are what we will be using in our day-to-day activities.
 
-## Git Commands 
+### <span class="header3">Git Commands</span> 
 
 <center>
 
 <table>
 <tr>
-<td>Stages</td>
-<td>Commands</td>
-<td>Function</td>
+<th>Stages</th>
+<th>Commands</th>
+<th>Function</th>
 </tr>
 <tr>
 <td>Setup</td>
@@ -127,23 +127,23 @@ Before we get into the intricate details of how Git actually works, we must go t
 
 </center>
 
-## Git Workflow
+## <span class="header2">Git Workflow</span>
 
 
 <style>
 .highlight{
   color: #75FF33
 }
-.imp{
+.list{
   color: #FF8080
 }
-.trivia{
+.header3{
   color: #E6D100
 }
 .header{
   color: #EE82EE
 }
-.sub-header{
+.header2{
   color: #00FFFF
 }
 </style>

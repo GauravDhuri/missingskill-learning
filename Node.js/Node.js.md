@@ -1,6 +1,6 @@
 # <span class="header">Node.js</span>
 
-Node.js is one of the most popular real-time web applications that allow two way communication, where both client and server can initiate communication, allowing them both to exchange data freely.
+<span class="highlight">Node.js is one of the most popular real-time web applications that allow two way communication</span>, where both client and server can initiate communication, allowing them both to exchange data freely.
 
 >Node.js is an open source server enviornment. 
 

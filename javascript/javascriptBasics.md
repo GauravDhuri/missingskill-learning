@@ -1,8 +1,8 @@
-# <span class="header">JavaScript Programming Basics</span>
+# <span class="header">JavaScript Programming Basics</span> 
 
 ## <span class="header2">Variables</span>
 
-Often, Variables are said to be empty boxes in which data can be stored. However, its not quite right as data is actually stored in the memory and variable is just a label that point towards the memory location.
+Often, Variables are said to be empty boxes in which data can be stored. However, its not quite right as data is actually stored in the memory and <span class="highlight">variable is just a label that point towards the memory location</span>.
 
 Syntax of variables is :
 ```js
@@ -34,14 +34,14 @@ var b= "Gaurav"; //holding a string
 Below are types of Primitive and Non-Primitive Data types used in JavaScript :-
 <table>
 <tr>
-<td colspan="2">Primitive Data Type</td>
-<td colspan="2">Non-Primitive Data Type</td>
+<th colspan="2">Primitive Data Type</th>
+<th colspan="2">Non-Primitive Data Type</th>
 </tr>
 <tr>
-<td>Data Type</td>
-<td>Description</td>
-<td>Data Type</td>
-<td>Description</td>
+<th>Data Type</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>Description</th>
 </tr>
 <tr>
 <td>String</td>
@@ -76,11 +76,11 @@ Below are types of Primitive and Non-Primitive Data types used in JavaScript :-
 
 Scope refers to the visibility of variables. In other words, which parts of your program can see or use it. We can understand it using laws. 
 
-Global Scope - Just like laws at global level are applicable to all, in same way variables declared in global scope can be accessed in all other scope.
+<span class="list">Global Scope</span> - Just like laws at global level are applicable to all, in same way <span class="highlight">variables declared in global scope can be accessed in all other scope</span>.
 
-Function Scope - Laws that are applicable at National level may not be applicable at World level. Just like that whenever we declare a variable in a function, the variable is visible only within the function.
+<span class="list">Function Scope</span> - Laws that are applicable at National level may not be applicable at World level. Just like that whenever we declare a variable in a function, <span class="highlight">the variable is visible only within the function</span>.
 
-Lexicla Scope :- Each State can have their own laws but a State must implement their own set of law while adding the laws at National level. And Just like a State is bound to their National laws, Children functions are bound to their parents Scope. Lexical scope means the children scope have the access to the variables defined in the parent scope.
+<span class="list">Lexicla Scope</span> :- Each State can have their own laws but a State must implement their own set of law while adding the laws at National level. And Just like a State is bound to their National laws, children functions are bound to their parents Scope. <span class="highlight">Lexical scope means the children scope have the access to the variables defined in the parent scope</span>.
 
 <img src="../assests/Scope-of-Variable.jpg" width="500">
 
@@ -106,16 +106,91 @@ var x = 4; and var X = 4; //x and X are considered to be different vairables due
 
 JavaScript has certain words that must not be used as variables. These words are known as Reserved words.
 
-|          |           |         |       |       |      |      |       |
-| -------- | --------- | ------- | ----- | ----- | ---- | ---- | ----- |
-| abstract | arguments | await | boolean | break | byte | case | catch | 
-| char | class | const | continue | debugger | default | delete | do |
-| double | else | enum | eval | export | extends | false | final |
-| finally | float | for | function | goto | if | implements | import |
-| in | instanceof | int | interface | let | long | native | new | 
-| null | package | private | protected | public | return | short | static |
-| super | switch | synchronized | this | throw | throws | transient | true | 
-| try | typeof | var | void | volatile | while | with | yield | 
+<table>
+<tr>
+<th colspan="8"><center>Reserved words</center></th>
+</tr>
+<tr>
+<td>abstract</td>
+<td>arguments</td>
+<td>await</td>
+<td>boolean</td>
+<td>break</td>
+<td>byte</td>
+<td>	case</td>
+<td>catch</td>
+</tr>
+<tr>
+<td>char</td>
+<td>class</td>
+<td>const</td>
+<td>continue</td>
+<td>debugger</td>
+<td>default</td>
+<td>delete</td>
+<td>do</td>
+</tr>
+<tr>
+<td>double</td>
+<td>else</td>
+<td>enum</td>
+<td>eval</td>
+<td>export</td>
+<td>extends</td>
+<td>false</td>
+<td>final</td>
+</tr>
+<tr>
+<td>finally</td>
+<td>float</td>
+<td>for</td>
+<td>function</td>
+<td>goto</td>
+<td>if</td>
+<td>implements</td>
+<td>import</td>
+</tr>
+<tr>
+<td>in</td>
+<td>instanceof</td>
+<td>int</td>
+<td>interface</td>
+<td>let</td>
+<td>long</td>
+<td>native</td>
+<td>new</td>
+</tr>
+<tr>
+<td>null</td>
+<td>package</td>
+<td>private</td>
+<td>protected</td>
+<td>public</td>
+<td>return</td>
+<td>short</td>
+<td>static</td>
+</tr>
+<tr>
+<td>super</td>
+<td>switch</td>
+<td>synchronized</td>
+<td>this</td>
+<td>throw</td>
+<td>throws</td>
+<td>transient</td>
+<td>true</td>
+</tr>
+<tr>
+<td>try</td>
+<td>typeof</td>
+<td>var</td>
+<td>void</td>
+<td>volatile</td>
+<td>while</td>
+<td>with</td>
+<td>yield</td>
+</tr>
+</table>
 <br>
 
 ## <span class="header2">Operators</span>
@@ -362,7 +437,6 @@ for (variable of iterable) {
 }
 ```
 
-<!-->
 <style>
 .highlight{
   color: #75FF33
@@ -376,7 +450,7 @@ for (variable of iterable) {
 .header2{
   color: #00FFFF
 }
-.imp{
+.list{
   color: #FF8080
 }
 </style>
