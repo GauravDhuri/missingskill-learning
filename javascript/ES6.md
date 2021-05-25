@@ -1,5 +1,7 @@
 # <span class="header">ES6</span>
 
+ES6 is also known as ECMAScript 6. ES6 version brought lots of new syntax and new features that makes our code more mordern and more readable. Essentially it helps us write less code and do more.
+
 ## <span class="header2">Let and Const</span>
 
 Before ES6 was released, developers used `var` as default way to decalre variables. However, `var` had certain problems that could produce unexpected outcomes. Mainly, if `var` was declared outside a function it had global scope and it meant that it could be used by whole window.
@@ -13,7 +15,7 @@ console.log(greet); // Hello
 
 This could create alot of mess. So, it was a relief when ES6 released `let` and `const` as alternative ways to declare variables.
 
-## <span class="header3">Let</span>
+### <span class="header3">Let</span>
 
 `let` is a block scoped variable. It solved the issuses that were caused by `var`. let variables can be updated buy cannot be re-declared.
 
@@ -27,7 +29,7 @@ let greet = "hi";
 let greet = "hello"; // will throw error
 ```
 
-## <span class="header3">Const</span>
+### <span class="header3">Const</span>
 
 `const` is used for variables that should maintain constant values. Similar to `let`, `const` is block scoped too. However, unlike `let`, `const` variables cannot be re-declared or updated.
 
@@ -63,7 +65,7 @@ var {id, name} = user;
 console.log(id); //  1
 console.log(name); // Gaurav
 ```
-## <span class="header3">Rest</span>
+### <span class="header3">Rest</span>
 
 In ES6 a new operator(...) was added that can be used in destructuring. If the operator appears on the left-hand side in destructuring then it is called as Rest parameter. Rest is used to map the remaining elements that were not intrested in by itself.
 
@@ -77,7 +79,7 @@ console.log(third); // Dota 2
 console.log(others); //["Valorant","League of Legends","Rainbow Six Seige"]
 ```
 
-## <span class="header3">Spread</span>
+### <span class="header3">Spread</span>
 
 When the operator(...) appears on the right-hand in destructuring then its called as Spread Synatax. It takes all the other elements which have no variable mapped to them and then maps it to rest variable.
 
@@ -210,10 +212,113 @@ console.log(Math.sign(-0)) //-0
 </tr>
 </table>
 
-## <span class="header2">Classes</span>
 
 ## <span class="header2">Template Literals</span>
 
+Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
+
+### <span class="header3">String Interpolation</span>
+
+Template Strings can contain placeholders for string substitution using the `${ }` syntax,
+
+Eg :-
+```js
+var name = "Brendan";
+console.log(`Yo, ${name}!`);
+```
+
+### <span class="header3">Multiline Strings</span>
+
+strings either exist on a single line or be split into multiline strings using a `\` (backslash) before each newline.
+
+Eg :-
+```js
+var greeting = "Yo \
+World";  
+// Output :-
+// Yo
+// World
+``` 
+
+## <span class="header2">Classes</span>
+
+Classes are a template for creating objects. They encapsulate data with code to work on that data.
+
+Syntax :-
+```js
+class Class_name{
+
+}
+
+// Eg:-
+class Polygon { 
+   constructor(height, width) { 
+      this.height = height; 
+      this.width = width; 
+   } 
+}
+```
+
+Also, unlike funcitons and variables, class cannot be hoisted.
+
+### <span class="header3">Understanding Why Setters & Getters are used</span>
+
+```js
+const person ={
+  fname : 'Gaurav',
+  lname : 'Dhuri',
+  fullName() {
+    return ${person.fname} ${person.lname}
+  }
+};
+
+console.log(person.fullName()); // Result will be correct
+```
+However, in the above approach there a few problems or to simply it lacks effiency. `console.log(person.fullName())` is read only meaning we cannot set a person full name from outside. Also, we have to access fullName as a method than a property which can cause confusion. Instead of this approach we can use the concept of setters and getters here.
+
+
+
+### <span class="header3">Setters</span>
+
+A setter function is invoked when there is an attempt to set the value of a property.
+
+```js
+const person ={
+  fname : 'Gaurav',
+  lname : 'Dhuri',
+  // setting fullName as getter we can access it like a property
+  get fullName() {  
+    return ${person.fname} ${person.lname}
+  }
+  console.log(person.fullName);
+```
+
+### <span class="header3">Getter</span>
+
+A getter function is invoked when there is an attempt to fetch the value of a property.
+
+```js
+const person ={
+  fname : 'Gaurav',
+  lname : 'Dhuri',
+  get fullName() {  
+    return ${person.fname} ${person.lname}
+  }
+  // using this if we set full name from outside and it will update the object accordingly on its own.
+  set fullName(value){
+    const parts = value.split(' ');
+    this.fname = parts[0];
+    this.lname = parts[1];
+  }
+};
+
+person.fullName = 'Yash Chuarasia';
+
+console.log(person);
+// fname : 'Yash'
+// lname : 'Chuarasia'
+// fullName : (...)
+```
 
 <style>
 .highlight{

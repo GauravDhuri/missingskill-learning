@@ -67,11 +67,42 @@ myLogModule.info('Node.js started');
 ```
 ### <span class="header3">Third Party Modules</span>
 
+The third party module can be downloaded by NPM (Node Package Manager). These type of modules are developed by others and we can use that in our project. Some of the popular third party modules are mongoose, express, angular, and react.
+
+Installing third party modules :-
+```
+npm install express
+npm install mongoose
+npm install -g@angular/cli
+```
+
+## <span class="header2">NPM</span>
+
+NPM is a package manager for Node.js packages, or modules.
+
+### <span class="header3">Packages & How to download</span>
+
+>A package in Node.js contains all the files you need for a module.
+
+To download a package we have to open the command line interface and tell NPM to download the package that we want.
+
+Eg :-
+```
+C:\Users\Gaurav>npm install upper-case
+```
+The NPM will then create a folder named "node_modules", where the package will be placed.
+
+### <span class="header3">Using Packages</span>
+
+Once the package is installed, it is ready to use. We will include the "package_name" the same way we include any other module:
+
+```js
+var uc = require('upper-case');
+```
+
 ## <span class="header2">Node.js Process Model</span>
 
-## <span class="header2">Node Package Manager</span>
-
-## <span class="header2">Express.js</span>
+Node applications are highly scalable this is because of non-blocking and asynchronous nature of Node.
 
 <style>
 .highlight{

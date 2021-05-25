@@ -12,9 +12,9 @@ var name;
 Eg :- Think of Memory locations as boxes that can store information and think of variables as name tags that help us remember which variable has which kind of data sotred in it. 
 
 ```js
-📦 Memory1 => 🏷️(Clothes) = (👔, 👖, 👗) 
-📦 Memory2 => 🏷️(Toys) = (🪀, 🧸, 🔫)
-📦 Memory3 => 🏷️(Tools) = (🔨, ⚙️, 🔧) 
+📦 Memory1 <- 🏷️(Dress) = 👗 
+📦 Memory2 <- 🏷️(Yo-Yo) = 🪀
+📦 Memory3 <- 🏷️(Hammer) = 🔨 
 ```
 ### <span class="header3">DataTypes</span>
 
@@ -74,6 +74,15 @@ Below are types of Primitive and Non-Primitive Data types used in JavaScript :-
 
 ### <span class="header3">Variable scope</span>
 
+Scope refers to the visibility of variables. In other words, which parts of your program can see or use it. We can understand it using laws. 
+
+Global Scope - Just like laws at global level are applicable to all, in same way variables declared in global scope can be accessed in all other scope.
+
+Function Scope - Laws that are applicable at National level may not be applicable at World level. Just like that whenever we declare a variable in a function, the variable is visible only within the function.
+
+Lexicla Scope :- Each State can have their own laws but a State must implement their own set of law while adding the laws at National level. And Just like a State is bound to their National laws, Children functions are bound to their parents Scope. Lexical scope means the children scope have the access to the variables defined in the parent scope.
+
+<img src="../assests/Scope-of-Variable.jpg" width="500">
 
 ### <span class="header3">Identifiers</span>
 
@@ -343,6 +352,15 @@ for(type var: array){
 ```
 
 ### <span class="header3">For-Of</span>
+
+`for-of` will loop through the values of an iterable object.
+
+Syntax :-
+```js
+for (variable of iterable) {
+ // code block to be executed
+}
+```
 
 <style>
 .highlight{

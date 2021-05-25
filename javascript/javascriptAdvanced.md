@@ -6,6 +6,8 @@ Execution Context is divided into two compoenents :-
 1. Memory Component
 2. Code Component
 
+<img src="../assests/Execution-Context.jpg" width="500">
+
 Memory Component
 
 This is also known as Variable Enviornment. It is here where all the variable and functions are stored in the format of key-value pair.
@@ -17,6 +19,12 @@ This is also known as Thread of Execution. It is here where code is executed one
 ## <span class="header2">Hoisting</span>
 
 Hoisting is nothing but a default behaviour of JavaScript to move variable declaration to the top of the scope. The important thing to remember here is that only declarations will be moved to the top and not initalization.
+
+<img src="../assests/Hoisting.jpg" width="500">
+
+<img src="../assests/Hoisting-EC.jpg" width="500">
+
+<img src="../assests/Hoisting_EC.jpg" width="500">
 
 ## <span class="header2">Closure</span>
 
@@ -40,7 +48,31 @@ In the example, inner function could access variable x. But outer function could
 
 ## <span class="header2">Pass by value and Pass by reference</span>
 
+In pass by value, changes made to the arguments in the called function will not be reflected in the calling function. However, it is not the case for Objects. When we pass an object to a function, you are passing the reference of that object. Therefore, the function can modify the properties of the object via its reference.
 
+<img src="../assests/PassByValue.jpg" width="500">
+
+```js
+let a = 1;
+  let change = (val) => {
+    val = 2;
+  }
+change(a);
+console.log(a); // Output - 1
+```
+
+In pass by reference, the changes made to the arguments in the called function will be reflected in the calling function.
+
+<img src="../assests/PassByRef.jpg" width="500">
+
+```js
+let a = {num:1};
+  let change = (val) => {
+   val.num = 2
+  }
+change(a);
+console.log(a); // Ouput - 2
+```
 
 ## <span class="header2">Concept of 'this'</span>
 
@@ -136,6 +168,8 @@ someFunction(obj.Function.bind(obj)); // But here 'this' will point to obj
 
 In JS, Promise is an Object that returns a value. The best way to understand a Promise is our current scenario. By uptaking the MissingSkill Grind, we can say that I have Promised to complete the report by 26th May. 
 
+<img src="../assests/Promise.jpg" width="500">
+
 As we can see, in the above Promise structure we can see three states :-
 * Pending - we dont know if i will complete the report
 * Fulfilled - I completed the report
@@ -143,7 +177,12 @@ As we can see, in the above Promise structure we can see three states :-
 
 A Promise begins with Pending state and it will end with either fulfilled or rejected state.
 
-Additionally, we can use `then()` to create promise chains, which will help us execute two or more async operations and also use `catch()` to look for error or failures.
+We can also use `then()` and `catch()` blocks along with returned promise object.
+
+<img src="../assests/Promise-then-catch.jpg" width="500">
+
+Additionally, we can use `then()` to create promise chains, which will help us execute two or more async operations.
+
 
 Eg :-
 ```js
@@ -164,6 +203,8 @@ Along with this, there is also the `finally()` block which is used to execute so
 ## <span class="header2">Async await</span>
 
 Async await is nothing but syntactical sugar for Promises. JS is a synchronous language and promises make use of asynchronous operations, so here async await helps us in writing synchronous looking code while performing asynchronous tasks.
+
+<img src="../assests/Async..await.jpg" width="500">
 
 ## <span class="header2">Tech Debt</span>
 

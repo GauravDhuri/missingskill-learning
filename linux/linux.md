@@ -5,11 +5,11 @@ Just like Windows, Mac or IOS, <span class="highlight">Linux an Operating System
 
 It manages all of the hardware resources associated with our desktop or laptop. Without an OS the device wouldn't function.
 
-# <span class="header">Why use Linux ?</span>
+## <span class="header2">Why use Linux ?</span>
 
 Until a few years ago, Linux was used mainly for servers and was not considered sutiable for desktops. But it's user-interface and ease of use has been steadily improving over the past few years. And Now, there are many reasons why Linux should be preferred over other software such as Windows or Mac. Given below are few of the reasons why.
 
-* <span class="sub-header">Simplified Update for all Software</span>
+* <span class="header3">Simplified Update for all Software</span>
   
   <span class="highlight">Maintaining the Linux OS is easy</span>, as the user can centrally update the OS and all software installed very easily. All the variants of Linux have their own central software repository, which is used to update the system and keep it safe. They offer regular updates and the system can be updated without rebooting it. <span class="highlight">Updating a Windows system is not so easy compared to a Linux system</span> . Also, in Windows, all the third party software like Acrobat Reader and Firefox have to be updated individually.
 
@@ -39,13 +39,13 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
   <b>$ sudo apt remove package</b>
   </pre>
 
-* <span class="sub-header">Free Software Licensing</span>
+* <span class="header3">Free Software Licensing</span>
 
   <span class="highlight">Linux is completely free</span> and users do not need to pay for anything . All the basic software required by a user and even an advanced user are available. Even the equivalent of professional software for desktop pubblishing, photo editing, audio editing and video editing are available.
 
   This feature is especially useful for commercial organizations such as Schools, Businesses and I.T Companies. Compare it to Windows OS whose Basic version can costs upto Rs 9,299.00 and Pro version can cost upto Rs 22,799.00 for a single PC. Imagine, a Company (assuming to have atleast 10 employees) must spend a minimum of Rs 9,29,900.00 to get started.
 
-* <span class="sub-header">Access to Open Source</span>
+* <span class="header3">Access to Open Source</span>
 
   "Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
  
@@ -72,7 +72,7 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
   | OpenSUSE | It works same as Fedora but slightly older and more stable |
   | Arch Linux | It is not for beginners because every package has to be installed by oneself |
 
-* <span class="sub-header">Malware Protection</span>
+* <span class="header3">Malware Protection</span>
   
   It is belived that Linux is more secure thean Windows becasue of the way it handles user permissions. As running an ".exe" file is much harder since Linux does not process executables without explicit permission (In simple terms we need to chmod +x a file before we can run it). This makes Linux much safer as most of the malware and virus come in the form of an ".exe".
 
@@ -135,7 +135,7 @@ The Linux command line is a text interface to our computer. It is often referred
 | useradd  | -                               | To create a new user for Linux system                                             |
 | userdel  | -                               | TO delete a user from Linux system                                                |
 
-# <span class="header">Linux Commands With Flags</span>
+## <span class="header2">Linux Commands With Flags</span>
 
 Linux Commands can also be used with certain options, also often referred to as flags or a switch, which are either single-letter or a full word. The function of these flags are to modify the behaviour of the commands in such a way that will helps us navigate, manipulate or edit things quicker.
 
@@ -249,20 +249,22 @@ Linux uses a hierarchical file system structure, like a tree with root(/) at the
 | /mnt | Temporary Mount point for RFS (Used when admin is repairing or working on System File) |
 | /dev | Contains the device files for every hardware device attached to the system |
 
+<img src="../assests/RFS.jpg" width="1000" class="center">
+
 <style>
 .highlight{
-  color: #75FF33
-}
-.imp{
   color: #FF8080
 }
-.trivia{
+.header3{
   color: #E6D100
 }
 .header{
   color: #EE82EE
 }
-.sub-header{
+.header2{
   color: #00FFFF
+}
+.imp{
+  color: #75FF33
 }
 </style>
