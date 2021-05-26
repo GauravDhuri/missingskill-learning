@@ -8,7 +8,7 @@ Node.js allows us to run JS on the server.
 
 ## <span class="header2"> Node.js Modules</span>
 
-Modules are same as JavaScript libraries. A set of function we want to include in our application.
+<span class="highlight">Modules are same as JavaScript libraries</span>. A set of function we want to include in our application.
 
 ### <span class="header3">Core Modules</span>
 
@@ -113,7 +113,7 @@ The best way to understand Node.js Model is to think of it as a Restaurant.
 
 <img src="../assests/Node.jsmodel.jpg" width="800">
 
-The waiter here is a single thread that handles all the request. Also since the waiter doesn't wait for the order to be prepared and goes on asking other customer order, we can say it is a Non-Blocking architecture.
+The waiter here is a single thread that handles all the request. <span class="highlight">Also since the waiter doesn't wait for the order to be prepared and goes on asking other customer order, we can say it is a Non-Blocking architecture </span>.
 
 This Model is what makes Node.js so popular. As this model increases the performance and scalability. 
 

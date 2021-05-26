@@ -47,7 +47,7 @@ let Colors = ['red','green','1','2'];  // Perfectly valid array
 
 ## <span class="header2">Object</span>
 
-In JS, almost everything is an object. Objects are non-primitive data type that can be used to store data in key-value pair.
+<span class="highlight">In JS, almost everything is an object</span> . Objects are non-primitive data type that can be used to store data in key-value pair.
 
 Objects can be created in JS using three ways :-
 ```js
@@ -101,7 +101,7 @@ objectName[expression]
 
 ### <span class="header3">Difference between Arrays and Object</span>
 
-So in the above Section, we have understood Arrays and Objects, both are basically different ways to organize and store data. However each of them have their merits and de-merits. Using a wrong data type to store data can cause mess in code and make it impossible to review our code. To avoid this we need to understand, when is it best to use an object vs when is it best to use an array. 
+So in the above Section, we have understood Arrays and Objects, <span class="highlight">both are basically different ways to organize and store data</span> . However each of them have their merits and de-merits. Using a wrong data type to store data can cause mess in code and make it impossible to review our code. To avoid this we need to understand, when is it best to use an object vs when is it best to use an array. 
 
 To understand that, think of Arrays as Books and think of Objects as Newspapers.
 

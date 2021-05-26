@@ -24,11 +24,11 @@ There are basically two types of version control system :
 
 ## <span class="header2">Why use Git ?</span>
 
-* <span class="list">Free</span>
-* <span class="list">Open Source</span>
-* <span class="list">Super Fast</span>
-* <span class="list">Scalable</span>
-* <span class="list">Cheap Branching/Merging</span>
+* Free
+* Open Source
+* Super Fast
+* Scalable
+* Cheap Branching/Merging
 
 ## <span class="header2">How to use Git </span>
 

@@ -1,6 +1,6 @@
 # <span class="header">Flutter</span>
 
-Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.
+<span class="highlight">Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase</span> .
 
 Some advantages of using Flutter are :-
 * Modern and reactive framework
@@ -11,12 +11,12 @@ Some advantages of using Flutter are :-
 
 # <span class="header">Widgets</span>
 
-Just like how Almost everything is JS is an object, In flutter everything is widget. In fact the application itself can be considered as Widget. Widget are basically user interface components used to create interface.
+<span class="highlight">Just like how Almost everything is JS is an object, In flutter everything is widget</span> . In fact the application itself can be considered as Widget. Widget are basically user interface components used to create interface.
 
 Most Important widgets used in creating any app :-
-* MyApp - User created Widget/Root of the application
-* MaterialApp - home property to specify user interface
-* Scaffold - has two properties - body and appbar
+* <span class="list">MyApp</span> - User created Widget/Root of the application
+* <span class="list">MaterialApp</span> - home property to specify user interface
+* <span class="list">Scaffold></span> - has two properties - body and appbar
 
 ## <span class="header2">Types of Widget</span>
 
@@ -28,11 +28,11 @@ Understanding these widget type is very important as it also helps us understand
 
 ### <span class="header3">Stateless Widgets</span>
 
-Stateless widgets are widgets that do not change or will not change in the future. They only run once when the app is created. Basically, something like a Text field that will not change over time.
+<span class="highlight">Stateless widgets are widgets that do not change or will not change in the future</span> . They only run once when the app is created. Basically, something like a Text field that will not change over time.
 
 ### <span class="header3">Stateful Widgets</span>
 
-Stateful widgets are widget that can change over time. It is a dynamic in nature. These widget hold the state i.e information. When the state of the widget changes the UI is rebuilt again, something like checkbox which can have two states, checked and unchecked.
+<span class="highlight">Stateful widgets are widget that can change over time</span> . It is a dynamic in nature. These widget hold the state i.e information. When the state of the widget changes the UI is rebuilt again, something like checkbox which can have two states, checked and unchecked.
 
 # <span class="header">Flutter Layout</span>
 
@@ -101,7 +101,7 @@ Also, Along with these features, we can also add third party packages that can c
 .header2{
   color: #00FFFF
 }
-.imp{
+.list{
   color: #FF8080
 }
 </style>

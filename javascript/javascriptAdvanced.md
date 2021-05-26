@@ -2,7 +2,7 @@
 
 ## <span class="header2">Constructor</span>
 
-In JS Constructors are very important to understand, as most of the times constructors are used in objects and functions.Constructors in JavaScript are nothing but "blueprints". Using this blueprints we can create multiple object of same type. 
+In JS Constructors are very important to understand, as most of the times constructors are used in objects and functions. <span class="highlight">Constructors in JavaScript are nothing but "blueprints"</span>. Using this blueprints we can create multiple object of same type. 
 
 Take an example of blueprint of the house. Instead of creating multiple blueprints for multiple houses. We can use a single blueprint for multiple houses.
 <center>
@@ -217,7 +217,7 @@ Async await is nothing but syntactical sugar for Promises. JS is a synchronous l
 
 ## <span class="header2">Closure</span>
 
-Closure is a function bundled together with its lexical environment. This basically means that closure gives us access to another function's scope from an inner function.
+Closure is a function bundled together with its lexical environment. This basically means that<span class="highlight"> closure gives us access to another function's scope from an inner function</span> .
 
 Eg :-
 ```js

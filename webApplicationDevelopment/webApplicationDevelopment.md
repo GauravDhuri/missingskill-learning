@@ -27,17 +27,17 @@ Here is a list of Software Programming Language.
 
 This question can spark much debate and much varies on preference of individuals. So a simple approach we can use is to identify what kind of work we need to do :-
 
-* Web-based work - JavaScript
-* Work based on software app in Large companies - C# or Java
-* Work based on Web app in Large companies - PHP
-* Data analytics - R and MATLAB
-* Embedded devices - C, C++ or Rust
-* Apps that run on cloud - Go or Scala
-* Mobile Apps - Swift, Kotlin or Dart
+* <span class="list">JavaScript</span> - Web-based work
+* <span class="list"> C# or Java Work </span> - based on software app in Large companies
+* <span class="list">PHP</span> - Work based on Web app in Large companies
+* <span class="list">R and MATLAB</span> - Data analytics
+* <span class="list">C, C++ or Rust</span> - Embedded devices
+* <span class="list">Go or Scala</span> - Apps that run on cloud
+* <span class="list">Swift, Kotlin or Dart</span> - Mobile Apps
 
 # <span class="header">IP Address</span>
 
-IP stands for 'Internet Protocol', which means a set of rules for the format of data sent via Internet or local network.
+IP stands for 'Internet Protocol', which<span class="highlight"> means a set of rules for the format of data sent via Internet or local network</span>.
 >An IP address is a unique address made up of string of numbers that identifies a device on the internet or local network.
 
 These string of numbers are not random. They are mathematically produced and allocated by (IANA) Internet Assigned Numbers Authority, its a division of (ICANN) Internet Corporation for Assigned Names and Numbers.
@@ -78,8 +78,8 @@ IPv6 is the next generation Internet Protocol standard intended to eventually re
 As we know IPv4 address is written in decimal digits, formatted as four 8-bit fields that are separated by '.'(period). Each 8-bit field represents a byte of the IPv4 address.
 
 The bytes of IPv4 address are further classified into two parts :
-* <span class="list">The network part</span>
-* <span class="list">The Host</span>
+* The network part
+* The Host
 
 Additional a port number can be attached to it, which altogether forms a socket address. <span class="highlight">It is only using these socket address that two device communicate with each other</span>.
  
@@ -99,7 +99,7 @@ To explain with an example, Think of ip address as a real life address in which 
 
 # <span class="header">Domain & Web Hosting</span>
 
-So by now, we know that internet is a giant network of computer connected to each other and in order for communication to occur between them IP address are used. IP address however are long strings of numbers, which can be quite difficult to remember, especially when multiple websites are involved. This is why Domain names were invented to solve this problem. So instead of typing long string of numbers we just need to type the domain name associated to the IP address in our address bar. 
+So by now, we know that internet is a giant network of computer connected to each other and in order for communication to occur between them IP address are used.<span class="highlight"> IP address however are long strings of numbers, which can be quite difficult to remember, especially when multiple websites are involved</span>. This is why Domain names were invented to solve this problem. So instead of typing long string of numbers we just need to type the domain name associated to the IP address in our address bar. 
 
 For eg :- `www.google.com` is the domain name whereas its IP address is 8.8.8.8
 
@@ -170,11 +170,11 @@ A cloud database is a database that has been optimized or built for a virtualize
 
 # <span class="header">Licenses</span>
 
-The license is a text document designed to protect the intellectual property of the software developer.
+<span class="highlight">The license is a text document designed to protect the intellectual property of the software developer</span> .
 
 Most software falls under one of two categories :-
-* Proprietary – also referred to as “closed source”
-* Free and open-source software (FOSS) – referred to as “open source”
+* <span class="list">Proprietary</span> – also referred to as “closed source”
+* <span class="list">Free and open-source software</span> (FOSS) – referred to as “open source”
 
 Some Popular open source Licenses are :-
 * Apache 2.0

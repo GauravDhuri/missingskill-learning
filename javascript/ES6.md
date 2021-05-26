@@ -320,6 +320,9 @@ console.log(person);
 // fullName : (...)
 ```
 
+
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33

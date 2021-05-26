@@ -1,11 +1,11 @@
 # <span class="header">HTML</span>
 
-HTML is a language in which most website are written in. HTMl is used to create pages. HTML focuses on the structure of the page rather then its appearance.
+HTML is a language in which most website are written in. HTMl is used to create pages.<span class="highlight"> HTML focuses on the structure of the page rather then its appearance</span>.
 
-Tags and Attributes
+## <span class="header2">Tags and Attributes</span>
 
 HTML are based on tags and attributes.
-Tags are used to markup the start of an HTML element whereas attributes contain additional pieces information
+Tags are used to markup the start of an HTML element whereas attributes contain additional pieces information.
 
 Eg :- `<img src="abc.jpg" alt="somephoto">`
 
@@ -14,7 +14,8 @@ Eg :- `<img src="abc.jpg" alt="somephoto">`
 <img src="../assests/HtmlStructure.jpg" width="500">
 
 * \<html> - signals the start of html code
-* \<head> - Metadata for the pages. Also includes \<title> - Place to insert page name.
+* \<head> - Metadata for the pages. Also includes 
+   * \<title> - Place to insert page name.
 * \<body> - Content of pages
 
 ## <span class="header2">Links</span>
@@ -30,14 +31,14 @@ The href part points to the page and the second part is the text which will be d
 
 ## <span class="header2">Table</span>
 
-Tables are one of the best ways to keep data neat and orderly.
+<span class="highlight">Tables are one of the best ways to keep data neat and orderly</span>.
 
 To create a table we use the \<table> tag.
 We also need to know a few more tags like :-
-* td - table data
-* tr - table row
-* th - table header
-* tf - table foot
+* <span class="list">td</span> - table data
+* <span class="list">tr</span> - table row
+* <span class="list">th</span> - table header
+* <span class="list">tf</span>- table foot
 
 Eg :-
 ```h
@@ -65,9 +66,11 @@ Eg :-
 | \<sub> | subscript Text |
 | \<sup> | superscript Text |
 
+<br>
+
 # <span class="header">CSS</span>
 
-CSS is not a programming language. CSS is a style sheet language. CSS is a HTML tool to provide easy control over layout and presentation of websites.
+CSS is not a programming language. CSS is a style sheet language. <span class="highlight">CSS is a HTML tool to provide easy control over layout and presentation of websites</span> .
 
 ## <span class="header2">Why CSS is needed ?</span>
 
@@ -85,13 +88,10 @@ Below is the structure of CSS code. It is called the rule or rule-set for css.
 
 <img src="../assests/CSS_Selector.jpg" width ="500">
 
-Selector - defines the element to be styled
-
-Declaration - specifies which of the elements properties we want to style
-
-Properties - Ways in which we can style css
-
-Property Value - Appearance for a given property
+- <span class="list">Selector</span> - defines the element to be styled
+- <span class="list">Declaration</span> - specifies which of the elements properties we want to style
+- <span class="list">Properties</span> - Ways in which we can style css
+- <span class="list">Property Value</span> - Appearance for a given property
 
 ### <span class="header3">Types of Selectors</span>
 
@@ -106,9 +106,11 @@ Property Value - Appearance for a given property
 ## <span class="header2">Box Model</span>
 
 CSS layout is mostly based on box model. Each box on the page has properties like :
-* border : space around content
-* margin : solid line outside padding
-* padding : space around the outside border. 
+* <span class="list">border</span> : space around content
+* <span class="list">margin</span> : solid line outside padding
+* <span class="list">padding</span> : space around the outside border. 
+
+<img src="../assests/Box-Model.jpg" width="500">
 
 CSS also provides us properties like :-
 * width
@@ -131,7 +133,7 @@ CSS also provides us properties like :-
 .header2{
   color: #00FFFF
 }
-.imp{
+.list{
   color: #FF8080
 }
 </style>

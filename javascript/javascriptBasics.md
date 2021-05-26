@@ -196,8 +196,8 @@ JavaScript has certain words that must not be used as variables. These words are
 ## <span class="header2">Operators</span>
 
 An Operator performs some operation on single or multiple operand(some data) and produces a result. Javascript has two types of operator :-
-1. Unary - operates on one operand. Eg :- x++
-2. Binary - operates on multiple operand. Eg :- x + y
+1. <span class="list">Unary</span> - operates on one operand. Eg :- x++
+2. <span class="list">Binary</span> - operates on multiple operand. Eg :- x + y
    
 ### <span class="header3">Arithmetic Operator</span>  
 

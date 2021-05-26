@@ -137,7 +137,7 @@ The Linux command line is a text interface to our computer. It is often referred
 
 ## <span class="header2">Linux Commands With Flags</span>
 
-Linux Commands can also be used with certain options, also often referred to as flags or a switch, which are either single-letter or a full word. The function of these flags are to modify the behavior of the commands in such a way that will helps us navigate, manipulate or edit things quicker.
+<span class="highlight">Linux Commands can also be used with certain options, also often referred to as flags or a switch</span>, which are either single-letter or a full word. The function of these flags are to modify the behavior of the commands in such a way that will helps us navigate, manipulate or edit things quicker.
 
 Below are some commands with their flags :
 
@@ -231,7 +231,7 @@ which already existed</td>
 
 # <span class="header">Linux File System</span>
 
-Linux uses a hierarchical file system structure, like a tree with root(/) at the base of the file system and all other directories spreading from there. A Linux file system is a collection of files and directories and each directory has a specific purpose(i.e they generally hold same types of information for easily locating files).
+Linux uses a hierarchical file system structure, like a tree with root(/) at the base of the file system and all other directories spreading from there.<span class="highlight"> A Linux file system is a collection of files and directories</span> and each directory has a specific purpose(i.e they generally hold same types of information for easily locating files).
 
 | Directory | Description |
 | --------- | ----------- |
@@ -250,7 +250,7 @@ Linux uses a hierarchical file system structure, like a tree with root(/) at the
 | /dev | Contains the device files for every hardware device attached to the system |
 <br>
 
-<img src="../assests/RFS.jpg" width="1000" class="center">
+<img src="../assests/RFS.jpg" width="800">
 
 <style>
 .highlight{
