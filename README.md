@@ -1,6 +1,7 @@
-<!-- For best viewing experience clone the project! --->
-
 # Table of Contents
+
+>**_Note_** - For best viewing experience clone the code.
+
 
 ### 1. [Linux](linux/linux.md)
    
