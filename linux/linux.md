@@ -252,6 +252,9 @@ Linux uses a hierarchical file system structure, like a tree with root(/) at the
 
 <img src="../assests/RFS.jpg" width="800">
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
