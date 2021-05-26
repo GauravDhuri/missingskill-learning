@@ -303,6 +303,9 @@ if(value){
 }
 ```
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
@@ -316,7 +319,7 @@ if(value){
 .header2{
   color: #00FFFF
 }
-.imp{
+.list{
   color: #FF8080
 }
 </style>

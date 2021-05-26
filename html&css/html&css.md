@@ -120,6 +120,9 @@ CSS also provides us properties like :-
 * display
 
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33

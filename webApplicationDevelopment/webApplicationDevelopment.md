@@ -183,12 +183,12 @@ Some Popular open source Licenses are :-
 * BSD
 * Mozilla
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
-}
-.list{
-  color: #FF8080
 }
 .header3{
   color: #E6D100
@@ -198,5 +198,8 @@ Some Popular open source Licenses are :-
 }
 .header2{
   color: #00FFFF
+}
+.list{
+  color: #FF8080
 }
 </style>

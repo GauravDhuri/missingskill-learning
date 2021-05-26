@@ -117,6 +117,9 @@ The waiter here is a single thread that handles all the request. <span class="hi
 
 This Model is what makes Node.js so popular. As this model increases the performance and scalability. 
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
@@ -130,7 +133,7 @@ This Model is what makes Node.js so popular. As this model increases the perform
 .header2{
   color: #00FFFF
 }
-.imp{
+.list{
   color: #FF8080
 }
 </style>

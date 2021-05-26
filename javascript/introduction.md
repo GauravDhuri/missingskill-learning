@@ -48,13 +48,12 @@ Since JavaScript is vast to learn, I have divided into multiple sections :-
 * Arrays, Objects & Functions
 * ES6 
 
-
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
-}
-.list{
-  color: #FF8080
 }
 .header3{
   color: #E6D100
@@ -64,5 +63,8 @@ Since JavaScript is vast to learn, I have divided into multiple sections :-
 }
 .header2{
   color: #00FFFF
+}
+.list{
+  color: #FF8080
 }
 </style>

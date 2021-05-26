@@ -160,12 +160,12 @@ The Workflow goes something like :-
 * The master branch tracks released code only. The only commits to master are merges from release branches and hotfix branches.
 * Hotfix branches are used to create emergency fixes.
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
-}
-.list{
-  color: #FF8080
 }
 .header3{
   color: #E6D100
@@ -175,5 +175,8 @@ The Workflow goes something like :-
 }
 .header2{
   color: #00FFFF
+}
+.list{
+  color: #FF8080
 }
 </style>

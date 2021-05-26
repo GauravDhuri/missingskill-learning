@@ -380,6 +380,9 @@ console.log(person2.fname); // Yash
 
 
 
+<br>
+<br>
+<br>
 <style>
 .highlight{
   color: #75FF33
@@ -393,7 +396,7 @@ console.log(person2.fname); // Yash
 .header2{
   color: #00FFFF
 }
-.imp{
+.list{
   color: #FF8080
 }
 </style>
