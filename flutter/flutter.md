@@ -3,15 +3,15 @@
 Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.
 
 Some advantages of using Flutter are :-
-* Mordern and reactive framework
+* Modern and reactive framework
 * Uses dart which is easy to learn
 * Fast development
 * Same UI can run over multiple application
-* Fluid and asthetic interfaces
+* Fluid and aesthetic interfaces
 
 # <span class="header">Widgets</span>
 
-Just like how Almost everything is JS is an object, In flutter everything is widget.Inface the application itself can be considered as Widget. Widget are basically user interface components used to create interface.
+Just like how Almost everything is JS is an object, In flutter everything is widget. In fact the application itself can be considered as Widget. Widget are basically user interface components used to create interface.
 
 Most Important widgets used in creating any app :-
 * MyApp - User created Widget/Root of the application
@@ -57,7 +57,7 @@ Single child Widget includes :-
 
 ## <span class="header2">Multi Child</span>
 
-As the name suggets multi-child widgets can hold multiple widgets into them. We often refer to it as childrens.
+As the name suggest multi-child widgets can hold multiple widgets into them. We often refer to it as children.
 
 
 <img src="../assests/Widgetmultiple.jpg" width="500" height="600">
@@ -72,7 +72,7 @@ Multi-Child Widgets include :-
 
 # <span class="header">Other Features</span>
 
-Not draggin this too much, Flutter provides devlopers with many other features that help us create precise and fluid UI.
+Not dragging this too much, Flutter provides developers with many other features that help us create precise and fluid UI.
 
 Some of features are :-
 * Gestures
