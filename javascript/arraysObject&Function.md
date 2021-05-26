@@ -101,7 +101,7 @@ objectName[expression]
 
 ### <span class="header3">Difference between Arrays and Object</span>
 
-So in the above Section, we have understood Arrays and Objects, both are basically different ways to organize and store data. However each of them have their merits and de-merits. Using a wrong data type to store data can cause mess in code and make it impossiblle to review our code. To avoid this we need to understand, when is it best to use an object vs when is it best to use an array. 
+So in the above Section, we have understood Arrays and Objects, both are basically different ways to organize and store data. However each of them have their merits and de-merits. Using a wrong data type to store data can cause mess in code and make it impossible to review our code. To avoid this we need to understand, when is it best to use an object vs when is it best to use an array. 
 
 To understand that, think of Arrays as Books and think of Objects as Newspapers.
 
@@ -179,7 +179,7 @@ Here, we can see that for the array we can not only have the Chapters arranged i
 
 ## <span class="header2">Functions</span>
 
-<span class="highlight">A function is a block of code designed to perform a particular task</span>. The main purpose behind creating/using a function is that we can reuse the code as many times as we want, this helps use save time and also helps us make our progams compact.
+<span class="highlight">A function is a block of code designed to perform a particular task</span>. The main purpose behind creating/using a function is that we can reuse the code as many times as we want, this helps use save time and also helps us make our programs compact.
 
 Syntax of a function is :
 
@@ -223,7 +223,7 @@ function hello(){
 <td>
 
 ```js
-let hello = () => 'Hellor World';
+let hello = () => 'Hello World';
 ```
 
 </td>
@@ -355,7 +355,7 @@ Below are some ways we can write IIFE :-
 myName(Dhuri);  // Inline Parameter
 // Output will be- My Name is Dhuri
 ```
-<span class="highlight">One of few reasons IIFE is used because it doesnt let Global variables get polluted and this helps us avoid variable conflicts</span>, however with the addition of block scopes like `const` and `let` IIFE isnt used as much anymore. 
+<span class="highlight">One of few reasons IIFE is used because it doesn't let Global variables get polluted and this helps us avoid variable conflicts</span>, however with the addition of block scopes like `const` and `let` IIFE isn't used as much anymore. 
 
 ### <span class="header3">Constructor Function</span>
 

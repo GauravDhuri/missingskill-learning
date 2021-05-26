@@ -2,9 +2,9 @@
 
 So, Firstly What is Git ? <span class="highlight">Git is one of the most popular Version Control System.</span>
 
->A Version Control System records the changes made to our code over-time and stores it in a speical database called repository.
+>A Version Control System records the changes made to our code over-time and stores it in a special database called repository.
 
-We can often look at our project history and see who has made what changes , when & why. One of the biggest advantage of Git is that if we do something wrong we can easily revert our project back to earlier state. Now before we go futher, we need to know what category of version control git falls into as this will help us understand the advantages of Git in more detail.
+We can often look at our project history and see who has made what changes , when & why. One of the biggest advantage of Git is that if we do something wrong we can easily revert our project back to earlier state. Now before we go further, we need to know what category of version control git falls into as this will help us understand the advantages of Git in more detail.
 
 There are basically two types of version control system :
 
@@ -32,7 +32,7 @@ There are basically two types of version control system :
 
 ## <span class="header2">How to use Git </span>
 
-As Coders whose daily work revolves around working with a team on a single project, making sure everyone and everthing is on the same level is quite important for a smooth performance of the team. This makes learning Git very very essential.
+As Coders whose daily work revolves around working with a team on a single project, making sure everyone and everything is on the same level is quite important for a smooth performance of the team. This makes learning Git very very essential.
 
 Before we get into the intricate details of how Git actually works, we must go through some essential commands that every git user must know. Most of these commands are what we will be using in our day-to-day activities.
 
@@ -91,7 +91,7 @@ Before we get into the intricate details of how Git actually works, we must go t
 <td>It allows us to create, list, rename and delete branches</td>
 <tr>
 <td>git merge</td>
-<td>It is used to merege branches that have a common base commit</td>
+<td>It is used to merge branches that have a common base commit</td>
 </tr>
 <tr>
 <td>git checkout</td>
@@ -113,7 +113,7 @@ Before we get into the intricate details of how Git actually works, we must go t
 <tr>
 <td rowspan="3">Collaborating changes</td>
 <td>git fetch</td>
-<td>It downloads new data from remote repository but doenst integrate any of these new changes into our working files</td>
+<td>It downloads new data from remote repository but doesn't integrate any of these new changes into our working files</td>
 </tr>
 <tr>
 <td>git pull</td>
@@ -127,8 +127,38 @@ Before we get into the intricate details of how Git actually works, we must go t
 
 </center>
 
-## <span class="header2">Git Workflow</span>
+## <span class="header2">Git Workflow for developers</span>
 
+Understanding the workflow of git is essential, as it will help us in being efficient and correcting if any errors are caused.
+
+<center>
+<img src="../assests/GitWorkflow.jpg" width="800">
+</center>
+
+The Workflow goes something like :-
+1. Clone the project from remote repository.
+2. Whenever we need to save new files, we need to add the files first to staging area
+3. Only after files are added to staging area, we can commit them into our local repository.
+4. We can use commit -a as a shortcut to directly commit in local repository.(If new files were created, do not use this.)
+5. Later on, we can push our local repository code to remote repository when we have reached some kind of milestone.
+6. Command fetch can be used to retrieve latest data from remote repository.
+7. Using merge we can add the newly retrieved data into our working directory(Must be used careful or else will show conflict)
+8. git pull is shortcut to straight away add latest data from remote repository.(Must be used when we are 100% sure as it will commit the changes)
+9. git diff head and diff are used to check difference between working directory and staging area or local repository
+
+
+## <span class="header2">Git Workflow for application</span>
+ 
+<center>
+<img src="../assests/GitDevWorkflow.jpg" width="800">
+</center>
+
+* New development and non emergency are built in feature branches
+* Feature branches are branched off of the develop branch, and finished features and fixes are merged back into the develop branch.
+* When it is time to make a release, a release branch is created off of develop
+* The code in the release branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the release branch. 
+* The master branch tracks released code only. The only commits to master are merges from release branches and hotfix branches.
+* Hotfix branches are used to create emergency fixes.
 
 <style>
 .highlight{

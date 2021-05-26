@@ -1,10 +1,19 @@
 # <span class="header">JavaScript Advance Concept</span>
 
+## <span class="header2">Constructor</span>
+
+In JS Constructors are very important to understand, as most of the times constructors are used in objects and functions.Constructors in JavaScript are nothing but "blueprints". Using this blueprints we can create multiple object of same type. 
+
+Take an example of blueprint of the house. Instead of creating multiple blueprints for multiple houses. We can use a single blueprint for multiple houses.
+<center>
+<img src="../assests/Constructor.jpg " width="500">
+</center>
+
 ## <span class="header2">Execution Context</span>
 
 Execution Context is something that is often neglected concept. But it is one of the most important thing a JS programmer must know about. What makes Execution Context so important is that it helps us understand how JavaScript code runs. It will also help us understand concepts like Hoisting and Closure better. <span class="highlight">Everything in JS happens inside an 'Execution Context'</span>.  
 
-Execution Context is divided into two compoenents :-
+Execution Context is divided into two components :-
 1. Memory Component
 2. Code Component
 
@@ -12,7 +21,7 @@ Execution Context is divided into two compoenents :-
 
 <span class="header3">Memory Component</span>
 
-This is also known as Variable Enviornment. It is here where all the variable and functions are stored in the format of key-value pair.
+This is also known as Variable Environment. It is here where all the variable and functions are stored in the format of key-value pair.
 
 <span class="header3">Code Component</span>
 
@@ -20,7 +29,7 @@ This is also known as Thread of Execution. It is here where code is executed one
 
 ## <span class="header2">Hoisting</span>
 
-<span class="highlight">Hoisting is nothing but a default behaviour of JavaScript to move variable declaration to the top of the scope</span>. The important thing to remember here is that only declarations will be moved to the top and not initalization.
+<span class="highlight">Hoisting is nothing but a default behavior of JavaScript to move variable declaration to the top of the scope</span>. The important thing to remember here is that only declarations will be moved to the top and not initialization.
 
 <img src="../assests/Hoisting.jpg" width="500">
 
@@ -33,7 +42,7 @@ The two Phases are :-
 
 Now, we must remember that in Hoisting only declarations are hoisted and not initialization. If we try to call a variable before it is initialized then it will throw us undefined. Below are two scenarios using Execution Context to understand it in depth.
 
-### <span class="header3">Initalized and Called</span>
+### <span class="header3">Initialized and Called</span>
 
 <img src="../assests/Hoisting_EC.jpg" width="500">
 
@@ -41,32 +50,11 @@ Now, we must remember that in Hoisting only declarations are hoisted and not ini
 
 <img src="../assests/Hoisting-EC.jpg" width="500">
 
-
-## <span class="header2">Closure</span>
-
-Closure is a function bundled together with its lexical environment. This basically means that closure gives us access to another function's scope from an inner function.
-
-Eg :-
-```js
-function outer(){
-  let x = 10;
-  function inner(){
-    let y = 20;
-    console.log(x); // 10
-  } 
-  inner();
-  console.log(y);  // UnCaught reference: y is not defined
-}
-outer();
-```
-
-In the example, inner function could access variable x. But outer function could not access the variable y. 
-
 ## <span class="header2">Pass by value and Pass by reference</span>
 
 ### <span class="header3">Pass by Value</span>
 
-In pass by value, changes made to the arguments in the called function will not be reflected in the calling function. However, it is not the case for Objects. When we pass an object to a function, you are passing the reference of that object. Therefore, the function can modify the properties of the object via its reference.
+Pass by Value means JavaScript copies the values of the passing variables into arguments inside of the function
 
 <img src="../assests/PassByValue.jpg" width="500">
 
@@ -126,7 +114,7 @@ someFunction();
 
 ### <span class="header3">Object's Method</span>
 
-If we create an object of a function and use the `this` keyword then the `this` keyword will point to that particular object. This behaviour doesnt change even if we create object using object literal.
+If we create an object of a function and use the `this` keyword then the `this` keyword will point to that particular object. This behavior doesn't change even if we create object using object literal.
 
 ```js
 var num = 100;
@@ -187,14 +175,14 @@ someFunction(obj.Function.bind(obj)); // But here 'this' will point to obj
 
 ## <span class="header2">Promise</span>
 
-In JS, <span class="highlight">Promise is an Object that returns a value</span>. The best way to understand a Promise is our current scenario. By uptaking the MissingSkill Grind, we can say that I have Promised to complete the report by 26th May. 
+In JS, <span class="highlight">Promise is an Object that returns a value</span>. The best way to understand a Promise is our current scenario. By up-taking the MissingSkill Grind, we can say that I have Promised to complete the report by 26th May. 
 
 <img src="../assests/Promise.jpg" width="500">
 
 As we can see, in the above Promise structure we can see three states :-
-* Pending - we dont know if i will complete the report
+* Pending - we don't know if i will complete the report
 * Fulfilled - I completed the report
-* Rejected - I couldnt complete the report 
+* Rejected - I couldn't complete the report 
 
 <span class="highlight">A Promise begins with Pending state and it will end with either fulfilled or rejected state</span> .
 
@@ -212,7 +200,7 @@ doSomething()
 .then(function(result){
   return doSomethingElse(result)
 })
-.then(funciton(newResult){
+.then(function(newResult){
   return doAnotherThing(newResult)
 })
 .catch(failureCallback);
@@ -226,6 +214,29 @@ Along with this, there is also the `finally()` block which is used to execute so
 Async await is nothing but syntactical sugar for Promises. JS is a synchronous language and promises make use of asynchronous operations, so here <span class="highlight">async await helps us in writing synchronous looking code while performing asynchronous tasks</span> .
 
 <img src="../assests/Async..await.jpg" width="500">
+
+## <span class="header2">Closure</span>
+
+Closure is a function bundled together with its lexical environment. This basically means that closure gives us access to another function's scope from an inner function.
+
+Eg :-
+```js
+function outer(){
+  let x = 10;
+  function inner(){
+    let y = 20;
+    console.log(x); // 10
+  } 
+  inner();
+  console.log(y);  // UnCaught reference: y is not defined
+}
+outer();
+```
+
+In the example, inner function could access variable x. But outer function could not access the variable y. 
+
+We can use the below example to understand how closures work.
+<img src="../assests/Closure.jpg" width="500">
 
 ## <span class="header2">Tech Debt</span>
 

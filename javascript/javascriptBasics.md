@@ -9,7 +9,7 @@ Syntax of variables is :
 var name;
 ```
 
-Eg :- Think of Memory locations as boxes that can store information and think of variables as name tags that help us remember which variable has which kind of data sotred in it. 
+Eg :- Think of Memory locations as boxes that can store information and think of variables as name tags that help us remember which variable has which kind of data stored in it. 
 
 ```js
 📦 Memory1 <- 🏷️(Dress) = 👗 
@@ -22,7 +22,7 @@ JavaScript has different data types to hold different types of values. There are
 1. Primitive data type
 2. Non-Primitive data type
 
-Since JS is a dynamic type language, we dont need to specify type of the variable because it is dynamically used by JS engine.
+Since JS is a dynamic type language, we don't need to specify type of the variable because it is dynamically used by JS engine.
 
 Eg :-
 
@@ -80,7 +80,7 @@ Scope refers to the visibility of variables. In other words, which parts of your
 
 <span class="list">Function Scope</span> - Laws that are applicable at National level may not be applicable at World level. Just like that whenever we declare a variable in a function, <span class="highlight">the variable is visible only within the function</span>.
 
-<span class="list">Lexicla Scope</span> :- Each State can have their own laws but a State must implement their own set of law while adding the laws at National level. And Just like a State is bound to their National laws, children functions are bound to their parents Scope. <span class="highlight">Lexical scope means the children scope have the access to the variables defined in the parent scope</span>.
+<span class="list">Lexical Scope</span> :- Each State can have their own laws but a State must implement their own set of law while adding the laws at National level. And Just like a State is bound to their National laws, children functions are bound to their parents Scope. <span class="highlight">Lexical scope means the children scope have the access to the variables defined in the parent scope</span>.
 
 <img src="../assests/Scope-of-Variable.jpg" width="500">
 
@@ -99,7 +99,7 @@ Eg :-
 ```js
 var x = 4; or var sum = 4;//Identifiers can be short names (x and y) or can be detailed (age, sum, total)
 
-var x = 4; and var X = 4; //x and X are considered to be different vairables due to case sensitivity
+var x = 4; and var X = 4; //x and X are considered to be different variables due to case sensitivity
 ```
 
 ### <span class="header3">Reserved words</span>
@@ -199,7 +199,7 @@ An Operator performs some operation on single or multiple operand(some data) and
 1. Unary - operates on one operand. Eg :- x++
 2. Binary - operates on multiple operand. Eg :- x + y
    
-### <span class="header3">Arithemetic Operator</span>  
+### <span class="header3">Arithmetic Operator</span>  
 
 | Operator | Description |
 | -------- | ----------- |
@@ -215,7 +215,7 @@ An Operator performs some operation on single or multiple operand(some data) and
 
 ### <span class="header3">Assignment Operator</span>
 
-For below expample consider :- `var x = 5, y = 10, z = 15;` 
+For below example consider :- `var x = 5, y = 10, z = 15;` 
 
 | Operator | Description | Example |
 | -------- | ----------- | ------- |
@@ -266,13 +266,13 @@ For below expample consider :- `var x = 5, y = 10, z = 15;`
 | Operator | Description |
 | -------- | ----------- |
 | typeof | Returns the type of a variable |
-| instanceof | Returns true if an obkect is an instance of an object type |
+| instanceof | Returns true if an object is an instance of an object type |
 
 ### <span class="header3">Ternary Operator</span>
 
 JavaScript includes special operator called ternary operator : ? that assigns a value to a variable based on some condition.
 
-Synatx :-
+Syntax :-
 ```
 <condition> ? <value1> : <value2>;
 ```
@@ -309,7 +309,7 @@ if(condition){
 
 Use the `else-if` statement to specify a new condition if the first condition is false.
 
-Synatx :-
+Syntax :-
 ```js
 if(condition){
   // block of code to be executed if condition 1 is true.
@@ -324,7 +324,7 @@ if(condition){
 
 Use the `switch` statement to select one of many code blocks to be executed.
 
-Synatx :-
+Syntax :-
 ```js
 switch(expression){
 case 1 :
@@ -342,7 +342,7 @@ default:
 
 ### <span class="header3">break</span>
 
-When JS reaches a `break` keyword, it breaks out of the switch block. This will stop the execution inside the switch block. If we dont write the break statement, the next case will be executed even if evaluation does not match.
+When JS reaches a `break` keyword, it breaks out of the switch block. This will stop the execution inside the switch block. If we don't write the break statement, the next case will be executed even if evaluation does not match.
 
 ### <span class="header3">default</span>
 

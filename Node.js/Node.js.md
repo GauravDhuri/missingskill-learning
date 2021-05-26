@@ -2,7 +2,7 @@
 
 <span class="highlight">Node.js is one of the most popular real-time web applications that allow two way communication</span>, where both client and server can initiate communication, allowing them both to exchange data freely.
 
->Node.js is an open source server enviornment. 
+>Node.js is an open source server environment. 
 
 Node.js allows us to run JS on the server.
 
@@ -102,7 +102,20 @@ var uc = require('upper-case');
 
 ## <span class="header2">Node.js Process Model</span>
 
-Node applications are highly scalable this is because of non-blocking and asynchronous nature of Node.
+The best way to understand Node.js Model is to think of it as a Restaurant. 
+
+- Customers come to counter and give order to waiter
+- When too many customers arrive, they wait in a line for their turn
+- Once the customer is served, the waiter passes the order to manager libuv, who assigns order to chef.
+- Chefs are worker threads.
+-  Once waiter passes the order to manager, he doesn't wait for order to be prepared instead, waiter takes order of next customer
+-  When the order is read waiter calls out the name and serves customer.
+
+<img src="../assests/Node.jsmodel.jpg" width="800">
+
+The waiter here is a single thread that handles all the request. Also since the waiter doesn't wait for the order to be prepared and goes on asking other customer order, we can say it is a Non-Blocking architecture.
+
+This Model is what makes Node.js so popular. As this model increases the performance and scalability. 
 
 <style>
 .highlight{

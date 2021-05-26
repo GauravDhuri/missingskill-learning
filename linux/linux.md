@@ -7,7 +7,7 @@ It manages all of the hardware resources associated with our desktop or laptop. 
 
 ## <span class="header2">Why use Linux ?</span>
 
-Until a few years ago, Linux was used mainly for servers and was not considered sutiable for desktops. But it's user-interface and ease of use has been steadily improving over the past few years. And Now, there are many reasons why Linux should be preferred over other software such as Windows or Mac. Given below are few of the reasons why.
+Until a few years ago, Linux was used mainly for servers and was not considered suitable for desktops. But it's user-interface and ease of use has been steadily improving over the past few years. And Now, there are many reasons why Linux should be preferred over other software such as Windows or Mac. Given below are few of the reasons why.
 
 * <span class="list">Simplified Update for all Software</span>
   
@@ -21,7 +21,7 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
   <b>$ sudo apt install package</b>
   </pre>
 
-  Also, any app can be upgraded using commad such as :
+  Also, any app can be upgraded using command such as :
 
 
   <pre>
@@ -41,9 +41,9 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
 
 * <span class="list">Free Software Licensing</span>
 
-  <span class="highlight">Linux is completely free</span> and users do not need to pay for anything . All the basic software required by a user and even an advanced user are available. Even the equivalent of professional software for desktop pubblishing, photo editing, audio editing and video editing are available.
+  <span class="highlight">Linux is completely free</span> and users do not need to pay for anything . All the basic software required by a user and even an advanced user are available. Even the equivalent of professional software for desktop publishing, photo editing, audio editing and video editing are available.
 
-  This feature is especially useful for commercial organizations such as Schools, Businesses and I.T Companies. Compare it to Windows OS whose Basic version can costs upto Rs 9,299.00 and Pro version can cost upto Rs 22,799.00 for a single PC. Imagine, a Company (assuming to have atleast 10 employees) must spend a minimum of Rs 9,29,900.00 to get started.
+  This feature is especially useful for commercial organizations such as Schools, Businesses and I.T Companies. Compare it to Windows OS whose Basic version can costs up to Rs 9,299.00 and Pro version can cost up to Rs 22,799.00 for a single PC. Imagine, a Company (assuming to have at least 10 employees) must spend a minimum of Rs 9,29,900.00 to get started.
 
 * <span class="list">Access to Open Source</span>
 
@@ -74,25 +74,25 @@ Until a few years ago, Linux was used mainly for servers and was not considered 
 
 * <span class="list">Malware Protection</span>
   
-  It is belived that Linux is more secure thean Windows becasue of the way it handles user permissions. As running an ".exe" file is much harder since Linux does not process executables without explicit permission (In simple terms we need to chmod +x a file before we can run it). This makes Linux much safer as most of the malware and virus come in the form of an ".exe".
+  It is believed that Linux is more secure than Windows because of the way it handles user permissions. As running an ".exe" file is much harder since Linux does not process executables without explicit permission (In simple terms we need to chmod +x a file before we can run it). This makes Linux much safer as most of the malware and virus come in the form of an ".exe".
 
   Another advantage that Linux has is that viruses can be  more easily removed. In Linux, system-related files are owned by "root" superuser. If infected, viruses can be removed as they can affect the user account and not the root account.
 
   Ofcourse in the end, it is a fact that no operating system is completely secure and free from vulnerabilities, but yes,<span class="highlight"> its much harder to infect an Linux system compared to Windows</span> .
 
-  Although, recently it was discovered that hackers are now using advanced malware to target Linux servers, this malware is known as "RedXOR". RedXOR is basically a backdoor targetting system that has capabilites like exfiltraing data to tunneling network traffic to another destination. Malware's like this could be a concern for the future of Linux security.
+  Although, recently it was discovered that hackers are now using advanced malware to target Linux servers, this malware is known as "RedXOR". RedXOR is basically a backdoor targeting system that has capabilities like exfiltrating data to tunneling network traffic to another destination. Malware's like this could be a concern for the future of Linux security.
 
 # <span class="header" id="kernel">What is kernel ?</span>
 
-<span class="highlight">A Kernel is a computer program that is the heart and core of an Operating system</span> . Since the Operating system has control over the system so, the kernel also has control over everything in the system. Kernel is the first program that is loaded after the bootloader, it remains into memory until operating sytem is shutdown.
+<span class="highlight">A Kernel is a computer program that is the heart and core of an Operating system</span> . Since the Operating system has control over the system so, the kernel also has control over everything in the system. Kernel is the first program that is loaded after the bootloader, it remains into memory until operating system is shutdown.
 
 Functions of Kernel :-
 * Access Computer resource - It can access various resources like CPU, I/O devices, etc.
 * Resource Management - It shares the resources between different process in such a way that there is uniform access to the resource by every process.
-* Memory Management - Every process needs memory space. All the memory management like allocation and deallocaion for execution of process is done by kernel.
+* Memory Management - Every process needs memory space. All the memory management like allocation and de-allocation for execution of process is done by kernel.
 * Device Management - Kernel also manages the peripheral devices connected in the system.
 
-# <span class="header">Baisc Linux Commands</span>
+# <span class="header">Basic Linux Commands</span>
 
 The Linux command line is a text interface to our computer. It is often referred to as shell, terminal, console, or other various names. It is in this terminal that we will run our commands. Now, let us look at some basic yet important commands in Linux :-
 
@@ -123,9 +123,9 @@ The Linux command line is a text interface to our computer. It is often referred
 | jobs     | -                               | To display all current jobs along with their statuses                             |
 | kill     | -                               | To terminate unresponsive programs                                                |
 | ping     | -                               | To check connectivity status to a server                                          |
-| wget     | _                               | Used to donwload files from the internet                                          |
+| wget     | _                               | Used to download files from the internet                                          |
 | uname    | Unix Name                       | To print detailed information about our Linux system                              |
-| top      | Table of Proccesses             | To display a list of running processes and how much CPU each process uses         |
+| top      | Table of Processes             | To display a list of running processes and how much CPU each process uses         |
 | history  | -                               | To review the commands you've entered before                                      |
 | man      | Manual                          | To display the user manual of any command that we can run on the terminal         |
 | echo     | -                               | To display line of text/string that are passed as an argument                                                      |
@@ -137,7 +137,7 @@ The Linux command line is a text interface to our computer. It is often referred
 
 ## <span class="header2">Linux Commands With Flags</span>
 
-Linux Commands can also be used with certain options, also often referred to as flags or a switch, which are either single-letter or a full word. The function of these flags are to modify the behaviour of the commands in such a way that will helps us navigate, manipulate or edit things quicker.
+Linux Commands can also be used with certain options, also often referred to as flags or a switch, which are either single-letter or a full word. The function of these flags are to modify the behavior of the commands in such a way that will helps us navigate, manipulate or edit things quicker.
 
 Below are some commands with their flags :
 

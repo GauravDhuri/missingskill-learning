@@ -1,10 +1,10 @@
 # <span class="header">ES6</span>
 
-ES6 is also known as ECMAScript 6. ES6 version brought lots of new syntax and new features that makes our code more mordern and more readable. Essentially it helps us write less code and do more.
+ES6 is also known as ECMAScript 6. ES6 version brought lots of new syntax and new features that makes our code more modern and more readable. Essentially it helps us write less code and do more.
 
 ## <span class="header2">Let and Const</span>
 
-Before ES6 was released, developers used `var` as default way to decalre variables. However, `var` had certain problems that could produce unexpected outcomes. Mainly, if `var` was declared outside a function it had global scope and it meant that it could be used by whole window.
+Before ES6 was released, developers used `var` as default way to declare variables. However, `var` had certain problems that could produce unexpected outcomes. Mainly, if `var` was declared outside a function it had global scope and it meant that it could be used by whole window.
 
 Also, biggest problem of `var` variables was that they could be re-declared and updated.
 ```js
@@ -17,7 +17,7 @@ This could create alot of mess. So, it was a relief when ES6 released `let` and 
 
 ### <span class="header3">Let</span>
 
-`let` is a block scoped variable. It solved the issuses that were caused by `var`. <span class="highlight">`let` variables can be updated buy cannot be re-declared</span> .
+`let` is a block scoped variable. It solved the issues that were caused by `var`. <span class="highlight">`let` variables can be updated buy cannot be re-declared</span> .
 
 ```js
 // updating let variable
@@ -42,7 +42,7 @@ greet = "hello"; // will throw error
 
 Destructuring in JS is a <span class="highlight">method that helps us upack values from arrays and properties from objects into variables</span> . 
 
-Why is destructuring needed ? Many-a-times it can happen that arrays can be complexly nested which makes information access very tedious epecially when we might not need the entire informatioin but rather only a part of information. Here Destructuring can help us map elements that we are interested in while ignoring the other elements.
+Why is destructuring needed ? Many-a-times it can happen that arrays can be complexly nested which makes information access very tedious especially when we might not need the entire information but rather only a part of information. Here Destructuring can help us map elements that we are interested in while ignoring the other elements.
 
 ```js
 // Array destructuring
@@ -67,7 +67,7 @@ console.log(name); // Gaurav
 ```
 ### <span class="header3">Rest</span>
 
-In ES6 a new operator `(...)` was added that can be used in destructuring. <span class="highlight">If the operator appears on the left-hand side in destructuring then it is called as Rest parameter</span>. Rest is used to map the remaining elements that were not intrested in by itself.
+In ES6 a new operator `(...)` was added that can be used in destructuring. <span class="highlight">If the operator appears on the left-hand side in destructuring then it is called as Rest parameter</span>. Rest is used to map the remaining elements that were not interested in by itself.
 
 Eg :-
 ```js
@@ -81,7 +81,7 @@ console.log(others); //["Valorant","League of Legends","Rainbow Six Seige"]
 
 ### <span class="header3">Spread</span>
 
-<span class="highlight">When the operator `(...)` appears on the right-hand in destructuring then its called as Spread Synatax</span> . It takes all the other elements which have no variable mapped to them and then maps it to rest variable.
+<span class="highlight">When the operator `(...)` appears on the right-hand in destructuring then its called as Spread Syntax</span> . It takes all the other elements which have no variable mapped to them and then maps it to rest variable.
 
 Eg :-
 ```js
@@ -95,7 +95,7 @@ console.log(rest); // ["Venus","Mars","Pluto","Saturn"]
 
 ## <span class="header2">Built-in methods</span>
 
-ES6 came along with lots of built methods. These methods simplyfy and standardize some scenarios that we developers came across often when working with JS.
+ES6 came along with lots of built methods. These methods simplify and standardize some scenarios that we developers came across often when working with JS.
 
 <table>
 <tr>
@@ -104,7 +104,7 @@ ES6 came along with lots of built methods. These methods simplyfy and standardiz
 <th>Syntax</th>
 </tr>
 <tr>
-<td>Object Property Assignmnet</td>
+<td>Object Property Assignment</td>
 <td>Used to assign properties of one or more source objects to a target object</td>
 <td>
 
@@ -165,7 +165,7 @@ Number.isFinite(123) // true;
 </tr>
 <tr>
 <td>Number Safety Checking</td>
-<td>To check if integer number is in safe range. (i.e number is floating point numbber)</td>
+<td>To check if integer number is in safe range. (i.e number is floating point number)</td>
 <td>
 
 ```js
@@ -181,7 +181,7 @@ Number.isSafeInteger(9007188254740992) //false
 <td>
 
 ```js
-console.log(Math.abs((0.1 + 0.2) - 0.3) < Number.EPLISON) //true
+console.log(Math.abs((0.1 + 0.2) - 0.3) < Number.EPSILON) //true
 ```
 
 </td>
@@ -259,7 +259,7 @@ class Polygon {
 }
 ```
 
-Also,<span class="highlight"> unlike funcitons and variables, class cannot be hoisted</span> .
+Also,<span class="highlight"> unlike functions and variables, class cannot be hoisted</span> .
 
 ### <span class="header3">Understanding Why Setters & Getters are used</span>
 
@@ -274,7 +274,7 @@ const person ={
 
 console.log(person.fullName()); // Result will be correct
 ```
-However, in the above approach there a few problems or to simply it lacks effiency. `console.log(person.fullName())` is read only meaning we cannot set a person full name from outside. Also, we have to access fullName as a method than a property which can cause confusion. Instead of this approach we can use the concept of setters and getters here.
+However, in the above approach there a few problems or to simply it lacks efficiency. `console.log(person.fullName())` is read only meaning we cannot set a person full name from outside. Also, we have to access fullName as a method than a property which can cause confusion. Instead of this approach we can use the concept of setters and getters here.
 
 
 
