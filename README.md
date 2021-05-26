@@ -4,19 +4,19 @@
 
 ### 1. [Linux](linux/linux.md)
    
-       Introduction to Linux
-       Why use Linux ?
-       Basic Linux Commands
-       Linux Commands With Flags
-       Linux File System
+    ‣ Introduction to Linux
+    ‣ Why use Linux ?
+    ‣ Basic Linux Commands
+    ‣ Linux Commands With Flags
+    ‣ Linux File System
 
 ### 2. [Git](git/git.md)
 
-       Introduction to Git
-       How to use Git
-       Git Commands
-       Git Workflow for developers
-       Git Workflow for application
+    • Introduction to Git
+    • How to use Git
+    • Git Commands
+    • Git Workflow for developers
+    • Git Workflow for application
 
 ### 3. [Basic Building Block Of Web Application Development](webApplicationDevelopment/webApplicationDevelopment.md)
 
@@ -59,7 +59,11 @@
 
  * [ES6](javascript/es6.md)
        
-        Let and Const
+       ➡️ Let and Const
+       ➡️ Destructing
+       Built-in Methods
+       Template Literal
+       Classes
 
 ### 5. Extra Skills
    * [Node.js](node.js/node.js.md)
