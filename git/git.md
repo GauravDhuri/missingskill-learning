@@ -8,17 +8,12 @@ We can often look at our project history and see who has made what changes , whe
 
 There are basically two types of version control system :
 
-<center>
 
 | Centralized | Distributed |
-| :---------: | :---------: |
+| :--------- | :--------- |
 | In a Centralized System , all members connect to a central server to get the latest copy of the code and to share changes with others | In a Distributed System, every member has a copy of the project with its history on the machine so we can save our project locally on our machine |
 | eg : Subversion , Microsoft team foundation server | eg : Git , Mercurial | 
 | Problem with Centralized System is the single point failure, if the server goes offline we cannot collaborate our project so we have to wait until server is back online | In Distributed System such kind of failure cant occur since ever member has a copy of the project on his/her local machine and if the server is offline we can synchronize our work directly with each other |
-
-</center>
-
-<center><i>Types of Version Control System</i></center>
 
 <br>
 
